@@ -1,0 +1,75 @@
+﻿@{
+	ViewData["Title"] = "Light Gallery";
+}
+<!--**********************************
+	Content body start
+***********************************-->
+<div class="content-body">
+	<div class="page-titles">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item "><a href="javascript:void(0)">Plugins</a></li>
+			<li class="breadcrumb-item active"><a href="javascript:void(0)">Light Gallery</a></li>
+		</ol>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="card">
+					<div class="card-header">
+						<h4 class="card-title">Light Gallery</h4>
+					</div>
+					<div class="card-body pb-1">
+						<div id="lightgallery" class="row">
+							<a href="images/big/img1.jpg" data-exthumbimage="images/big/img1.jpg" data-src="~/w3crm/images/big/img1.jpg" class="col-lg-3 col-md-6 mb-4">
+								<img src="~/w3crm/images/big/img1.jpg" alt="" class="rounded w-100">
+							</a>
+							<a href="images/big/img2.jpg" data-exthumbimage="images/big/img2.jpg" data-src="~/w3crm/images/big/img2.jpg" class="col-lg-3 col-md-6 mb-4">
+								<img src="~/w3crm/images/big/img2.jpg" class="rounded w-100" alt="">
+							</a>
+							<a href="images/big/img3.jpg" data-exthumbimage="images/big/img3.jpg" data-src="~/w3crm/images/big/img3.jpg" class="col-lg-3 col-md-6 mb-4">
+								<img src="~/w3crm/images/big/img3.jpg" alt="" class="rounded w-100">
+							</a>
+							<a href="images/big/img4.jpg" data-exthumbimage="images/big/img4.jpg" data-src="~/w3crm/images/big/img4.jpg" class="col-lg-3 col-md-6 mb-4">
+								<img src="~/w3crm/images/big/img4.jpg" alt="" class="rounded w-100">
+							</a>
+							<a href="images/big/img5.jpg" data-exthumbimage="images/big/img5.jpg" data-src="~/w3crm/images/big/img5.jpg" class="col-lg-3 col-md-6 mb-4">
+								<img src="~/w3crm/images/big/img5.jpg" alt="" class="rounded w-100">
+							</a>
+							<a href="images/big/img6.jpg" data-exthumbimage="images/big/img6.jpg" data-src="~/w3crm/images/big/img6.jpg" class="col-lg-3 col-md-6 mb-4">
+								<img src="~/w3crm/images/big/img6.jpg" alt="" class="rounded w-100">
+							</a>
+							<a href="images/big/img7.jpg" data-exthumbimage="images/big/img7.jpg" data-src="~/w3crm/images/big/img7.jpg" class="col-lg-3 col-md-6 mb-4">
+								<img src="~/w3crm/images/big/img7.jpg" alt="" class="rounded w-100">
+							</a>
+							<a href="images/big/img8.jpg" data-exthumbimage="images/big/img8.jpg" data-src="~/w3crm/images/big/img8.jpg" class="col-lg-3 col-md-6 mb-4">
+								<img src="~/w3crm/images/big/img8.jpg" alt="" class="rounded w-100">
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- /# card -->
+			</div>
+		</div>
+	</div>
+</div>
+<!--**********************************
+	Content body end
+***********************************-->
+@section w3crm_style
+	{
+	<link href="~/w3crm/vendor/lightgallery/css/lightgallery.min.css" rel="stylesheet">
+}
+
+@section w3crm_script
+	{
+	<!--**********************************
+		Scripts
+	***********************************-->
+	<!-- Required vendors -->
+	<script src="~/w3crm/vendor/global/global.min.js"></script>
+	<script src="~/w3crm/vendor/lightgallery/js/lightgallery-all.min.js"></script>
+	<script src="~/w3crm/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+	<script src="~/w3crm/js/custom.js"></script>
+	<script src="~/w3crm/js/deznav-init.js"></script>
+	<script src="~/w3crm/js/styleSwitcher.js"></script>
+}

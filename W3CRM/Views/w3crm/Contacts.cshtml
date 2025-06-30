@@ -1,0 +1,474 @@
+﻿@{
+	ViewData["Title"] = "Contacts";
+}
+<!--**********************************
+	Content body start
+***********************************-->
+<div class="content-body">
+	<!-- row -->
+	<div class="page-titles">
+		<ol class="breadcrumb">
+			<li><h5 class="bc-title">Dashboard</h5></li>
+			<li class="breadcrumb-item">
+				<a href="javascript:void(0)">
+					<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M2.125 6.375L8.5 1.41667L14.875 6.375V14.1667C14.875 14.5424 14.7257 14.9027 14.4601 15.1684C14.1944 15.4341 13.8341 15.5833 13.4583 15.5833H3.54167C3.16594 15.5833 2.80561 15.4341 2.53993 15.1684C2.27426 14.9027 2.125 14.5424 2.125 14.1667V6.375Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M6.375 15.5833V8.5H10.625V15.5833" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+					Apps
+				</a>
+			</li>
+			<li class="breadcrumb-item active"><a href="javascript:void(0)">Contacts</a></li>
+		</ol>
+		<a class="text-primary fs-13" data-bs-toggle="offcanvas" href="#offcanvasExample1" role="button" aria-controls="offcanvasExample1">+ Add Task</a>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xl-12 active-p">
+				<div class="d-flex align-items-center justify-content-between mb-4">
+					<h4 class="heading mb-0">Contacts</h4>
+					<div>
+						<a class="btn btn-primary btn-sm me-1" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">+ Add Contacts</a>
+						<button type="button" class="btn btn-secondary btn-sm ms-1" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+							+ Invite Customer
+						</button>
+					</div>
+				</div>
+				<div class="card h-auto">
+					<div class="card-body p-0">
+						<div class="table-responsive active-projects style-1 shorting dt-filter exports">
+							<div class="tbl-caption">
+							</div>
+							<table id="contacts-tbl" class="table">
+								<thead>
+									<tr>
+										<th>
+											<div class="form-check custom-checkbox ms-0">
+												<input type="checkbox" class="form-check-input" id="checkAll" required="">
+												<label class="form-check-label" for="checkAll"></label>
+											</div>
+										</th>
+										<th>Name</th>
+										<th>Email</th>
+										<th>Tags</th>
+										<th>Phone</th>
+										<th>Status</th>
+										<th>Dob</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox2" required="">
+												<label class="form-check-label" for="customCheckBox2"></label>
+											</div>
+										</td>
+										<td>
+											<div class="d-flex align-items-center">
+												<img src="~/w3crm/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+												<p class="mb-0 ms-2">Biam Lucas</p>
+											</div>
+										</td>
+										<td>demo1@gmail.com</td>
+
+										<td class="pe-0">
+											<span class="badge badge-success light border-0 badge-sm">Customer</span>
+										</td>
+										<td class="pe-0">
+											(123) 456 789
+										</td>
+										<td class="pe-0 c-status">
+											<span><i class="fa-solid fa-circle text-success"></i>Avalible</span>
+										</td>
+										<td>
+											<span>06 Sep 2021</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox3" required="">
+												<label class="form-check-label" for="customCheckBox3"></label>
+											</div>
+										</td>
+										<td>
+											<div class="d-flex align-items-center">
+												<img src="~/w3crm/images/contacts/pic2.jpg" class="avatar rounded-circle" alt="">
+												<p class="mb-0 ms-2">Hrayson Leo</p>
+											</div>
+										</td>
+										<td>demo1@gmail.com</td>
+
+										<td class="pe-0">
+											<span class="badge badge-success light border-0 badge-sm">Customer</span>
+											<span class="badge badge-warning light border-0 badge-sm">Lead</span>
+										</td>
+										<td class="pe-0">
+											(123) 456 789
+										</td>
+										<td class="pe-0 c-status">
+											<span><i class="fa-solid fa-circle text-primary"></i>In Progress</span>
+										</td>
+										<td>
+											<span>08 Jan 1995</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox4" required="">
+												<label class="form-check-label" for="customCheckBox4"></label>
+											</div>
+										</td>
+										<td>
+											<div class="d-flex align-items-center">
+												<img src="~/w3crm/images/contacts/pic3.jpg" class="avatar rounded-circle" alt="">
+												<p class="mb-0 ms-2">Jack Luca</p>
+											</div>
+										</td>
+										<td>demo3@gmail.com</td>
+
+										<td class="pe-0">
+											<span class="badge badge-warning light border-0 badge-sm">Lead</span>
+										</td>
+										<td class="pe-0">
+											(123) 456 789
+										</td>
+										<td class="pe-0 c-status">
+											<span><i class="fa-solid fa-circle text-danger"></i>Cancelled</span>
+										</td>
+										<td>
+											<span>08 Jan 1994</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox5" required="">
+												<label class="form-check-label" for="customCheckBox5"></label>
+											</div>
+										</td>
+										<td>
+											<div class="d-flex align-items-center">
+												<img src="~/w3crm/images/contacts/pic2.jpg" class="avatar rounded-circle" alt="">
+												<p class="mb-0 ms-2">Crayson Leo</p>
+											</div>
+										</td>
+										<td>demo1@gmail.com</td>
+
+										<td class="pe-0">
+											<span class="badge badge-success light border-0 badge-sm">Customer</span>
+											<span class="badge badge-warning light border-0 badge-sm">Lead</span>
+										</td>
+										<td class="pe-0">
+											(123) 456 789
+										</td>
+										<td class="pe-0 c-status">
+											<span><i class="fa-solid fa-circle text-primary"></i>In Progress</span>
+										</td>
+										<td>
+											<span>08 Jan 1995</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox6" required="">
+												<label class="form-check-label" for="customCheckBox6"></label>
+											</div>
+										</td>
+										<td>
+											<div class="d-flex align-items-center">
+												<img src="~/w3crm/images/contacts/pic3.jpg" class="avatar rounded-circle" alt="">
+												<p class="mb-0 ms-2">Sack Luca</p>
+											</div>
+										</td>
+										<td>demo3@gmail.com</td>
+
+										<td class="pe-0">
+											<span class="badge badge-warning light border-0 badge-sm">Lead</span>
+										</td>
+										<td class="pe-0">
+											(123) 456 789
+										</td>
+										<td class="pe-0 c-status">
+											<span><i class="fa-solid fa-circle text-danger"></i>Cancelled</span>
+										</td>
+										<td>
+											<span>08 Jan 1994</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox7" required="">
+												<label class="form-check-label" for="customCheckBox7"></label>
+											</div>
+										</td>
+										<td>
+											<div class="d-flex align-items-center">
+												<img src="~/w3crm/images/contacts/pic888.jpg" class="avatar rounded-circle" alt="">
+												<p class="mb-0 ms-2">Pogan Liam</p>
+											</div>
+										</td>
+										<td>demo3@gmail.com</td>
+
+										<td class="pe-0">
+											<span class="badge badge-secondary light border-0 badge-sm">Important</span>
+										</td>
+										<td class="pe-0">
+											(123) 456 789
+										</td>
+										<td class="pe-0 c-status">
+											<span><i class="fa-solid fa-circle text-danger"></i>Cancelled</span>
+										</td>
+										<td>
+											<span>10 Feb 1994</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox8" required="">
+												<label class="form-check-label" for="customCheckBox8"></label>
+											</div>
+										</td>
+										<td>
+											<div class="d-flex align-items-center">
+												<img src="~/w3crm/images/contacts/pic777.jpg" class="avatar rounded-circle" alt="">
+												<p class="mb-0 ms-2">Benjamin William</p>
+											</div>
+										</td>
+										<td>demo3@gmail.com</td>
+
+										<td class="pe-0">
+											<span class="badge badge-secondary light border-0 badge-sm">Important</span>
+											<span class="badge badge-warning light border-0 badge-sm">Lead</span>
+										</td>
+										<td class="pe-0">
+											(123) 456 789
+										</td>
+										<td class="pe-0 c-status">
+											<span><i class="fa-solid fa-circle text-primary"></i>In Progress</span>
+										</td>
+										<td>
+											<span>10 Feb 1994</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox9" required="">
+												<label class="form-check-label" for="customCheckBox9"></label>
+											</div>
+										</td>
+										<td>
+											<div class="d-flex align-items-center">
+												<img src="~/w3crm/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+												<p class="mb-0 ms-2">Ethan Lucas</p>
+											</div>
+										</td>
+										<td>demo1@gmail.com</td>
+
+										<td class="pe-0">
+											<span class="badge badge-success light border-0 badge-sm">Customer</span>
+										</td>
+										<td class="pe-0">
+											(123) 456 789
+										</td>
+										<td class="pe-0 c-status">
+											<span><i class="fa-solid fa-circle text-success"></i>Avalible</span>
+										</td>
+										<td>
+											<span>06 Sep 2021</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox10" required="">
+												<label class="form-check-label" for="customCheckBox10"></label>
+											</div>
+										</td>
+										<td>
+											<div class="d-flex align-items-center">
+												<img src="~/w3crm/images/contacts/pic2.jpg" class="avatar rounded-circle" alt="">
+												<p class="mb-0 ms-2">Mrayson Levi</p>
+											</div>
+										</td>
+										<td>demo1@gmail.com</td>
+
+										<td class="pe-0">
+											<span class="badge badge-success light border-0 badge-sm">Customer</span>
+											<span class="badge badge-warning light border-0 badge-sm">Lead</span>
+										</td>
+										<td class="pe-0">
+											(123) 456 789
+										</td>
+										<td class="pe-0 c-status">
+											<span><i class="fa-solid fa-circle text-primary"></i>In Progress</span>
+										</td>
+										<td>
+											<span>08 Jan 1995</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox11" required="">
+												<label class="form-check-label" for="customCheckBox11"></label>
+											</div>
+										</td>
+										<td>
+											<div class="d-flex align-items-center">
+												<img src="~/w3crm/images/contacts/pic3.jpg" class="avatar rounded-circle" alt="">
+												<p class="mb-0 ms-2">Nack Luca</p>
+											</div>
+										</td>
+										<td>demo3@gmail.com</td>
+
+										<td class="pe-0">
+											<span class="badge badge-warning light border-0 badge-sm">Lead</span>
+										</td>
+										<td class="pe-0">
+											(123) 456 789
+										</td>
+										<td class="pe-0 c-status">
+											<span><i class="fa-solid fa-circle text-danger"></i>Cancelled</span>
+										</td>
+										<td>
+											<span>08 Jan 1994</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox12" required="">
+												<label class="form-check-label" for="customCheckBox12"></label>
+											</div>
+										</td>
+										<td>
+											<div class="d-flex align-items-center">
+												<img src="~/w3crm/images/contacts/pic888.jpg" class="avatar rounded-circle" alt="">
+												<p class="mb-0 ms-2">Logan Liam</p>
+											</div>
+										</td>
+										<td>demo3@gmail.com</td>
+
+										<td class="pe-0">
+											<span class="badge badge-secondary light border-0 badge-sm">Important</span>
+										</td>
+										<td class="pe-0">
+											(123) 456 789
+										</td>
+										<td class="pe-0 c-status">
+											<span><i class="fa-solid fa-circle text-danger"></i>Cancelled</span>
+										</td>
+										<td>
+											<span>10 Feb 1994</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox13" required="">
+												<label class="form-check-label" for="customCheckBox13"></label>
+											</div>
+										</td>
+										<td>
+											<div class="d-flex align-items-center">
+												<img src="~/w3crm/images/contacts/pic777.jpg" class="avatar rounded-circle" alt="">
+												<p class="mb-0 ms-2">Lenjamin William</p>
+											</div>
+										</td>
+										<td>demo3@gmail.com</td>
+
+										<td class="pe-0">
+											<span class="badge badge-secondary light border-0 badge-sm">Important</span>
+											<span class="badge badge-warning light border-0 badge-sm">Lead</span>
+										</td>
+										<td class="pe-0">
+											(123) 456 789
+										</td>
+										<td class="pe-0 c-status">
+											<span><i class="fa-solid fa-circle text-primary"></i>In Progress</span>
+										</td>
+										<td>
+											<span>10 Feb 1994</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox14" required="">
+												<label class="form-check-label" for="customCheckBox14"></label>
+											</div>
+										</td>
+										<td>
+											<div class="d-flex align-items-center">
+												<img src="~/w3crm/images/contacts/pic777.jpg" class="avatar rounded-circle" alt="">
+												<p class="mb-0 ms-2">Theodore William</p>
+											</div>
+										</td>
+										<td>demo3@gmail.com</td>
+
+										<td class="pe-0">
+
+											<span class="badge badge-danger light border-0 badge-sm">Supplier</span>
+										</td>
+										<td class="pe-0">
+											(123) 456 789
+										</td>
+										<td class="pe-0 c-status">
+											<span><i class="fa-solid fa-circle text-primary"></i>In Progress</span>
+										</td>
+										<td>
+											<span>10 Feb 1994</span>
+										</td>
+									</tr>
+								</tbody>
+
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!--**********************************
+	Content body end
+***********************************-->
+@section w3crm_style
+	{
+	<link href="~/w3crm/vendor/swiper/css/swiper-bundle.min.css" rel="stylesheet">
+	<link href="~/w3crm/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
+	<link href="https://cdn.datatables.net/buttons/1.6.4/css/buttons.dataTables.min.css" rel="stylesheet">
+}
+
+@section w3crm_script
+	{
+	<!--**********************************
+		Scripts
+	***********************************-->
+	<!-- Required vendors -->
+	<script src="~/w3crm/vendor/global/global.min.js"></script>
+	<script src="~/w3crm/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+
+	<!-- Dashboard 1 -->
+	<script src="~/w3crm/vendor/datatables/js/jquery.dataTables.min.js"></script>
+	<script src="~/w3crm/vendor/datatables/js/dataTables.buttons.min.js"></script>
+	<script src="~/w3crm/vendor/datatables/js/buttons.html5.min.js"></script>
+	<script src="~/w3crm/vendor/datatables/js/jszip.min.js"></script>
+	<script src="~/w3crm/js/plugins-init/datatables.init.js"></script>
+
+	<!-- Apex Chart -->
+	<script src="~/w3crm/vendor/tagify/dist/tagify.js"></script>
+	<!-- Vectormap -->
+	<script src="~/w3crm/js/custom.js"></script>
+	<script src="~/w3crm/js/deznav-init.js"></script>
+	<script src="~/w3crm/js/demo.js"></script>
+	<script src="~/w3crm/js/styleSwitcher.js"></script>
+}

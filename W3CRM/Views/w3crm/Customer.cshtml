@@ -1,0 +1,547 @@
+﻿@{
+	ViewData["Title"] = "Customer";
+}
+<!--**********************************
+	Content body start
+***********************************-->
+<div class="content-body">
+	<!-- row -->
+	<div class="page-titles">
+		<ol class="breadcrumb">
+			<li><h5 class="bc-title">Dashboard</h5></li>
+			<li class="breadcrumb-item">
+				<a href="javascript:void(0)">
+					<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M2.125 6.375L8.5 1.41667L14.875 6.375V14.1667C14.875 14.5424 14.7257 14.9027 14.4601 15.1684C14.1944 15.4341 13.8341 15.5833 13.4583 15.5833H3.54167C3.16594 15.5833 2.80561 15.4341 2.53993 15.1684C2.27426 14.9027 2.125 14.5424 2.125 14.1667V6.375Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M6.375 15.5833V8.5H10.625V15.5833" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+					Customers
+				</a>
+			</li>
+			<li class="breadcrumb-item active"><a href="javascript:void(0)">Customer</a></li>
+		</ol>
+		<a class="text-primary fs-13" data-bs-toggle="offcanvas" href="#offcanvasExample1" role="button" aria-controls="offcanvasExample1">+ Add Task</a>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xl-12 bst-seller">
+				<div class="d-flex align-items-center justify-content-between mb-4">
+					<h4 class="heading mb-0">Customer</h4>
+					<div class="d-flex align-items-center">
+						<button type="button" class="btn btn-primary btn-sm me-2">
+							<i class="fa-solid fa-filter me-2"></i>Filter
+						</button>
+
+						<a class="btn btn-primary btn-sm ms-2" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">+ Add Customer</a>
+					</div>
+				</div>
+				<div class="card h-auto">
+					<div class="card-body p-0">
+						<div class="table-responsive active-projects style-1 dt-filter exports">
+							<div class="tbl-caption">
+							</div>
+							<table id="customer-tbl" class="table shorting">
+								<thead>
+									<tr>
+										<th class="">
+											<div class="form-check custom-checkbox ms-0">
+												<input type="checkbox" class="form-check-input" id="checkAll" required="">
+												<label class="form-check-label" for="checkAll"></label>
+											</div>
+										</th>
+										<th>Customer ID</th>
+										<th>Customer Name</th>
+										<th>Email Address</th>
+										<th>Contact Number</th>
+										<th>Gender</th>
+										<th>Location</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox022" required="">
+												<label class="form-check-label" for="customCheckBox022"></label>
+											</div>
+										</td>
+										<td><span>001</span></td>
+										<td>
+											<div class="products">
+												<img src="~/w3crm/images/contacts/pic1.jpg" class="avatar avatar-md" alt="">
+												<div>
+													<h6><a href="@Url.Action("Profile2", "w3crm")">Ricky Seme</a></h6>
+													<span>Web Designer</span>
+												</div>
+											</div>
+										</td>
+										<td><a href="javascript:void(0)" class="text-primary">rs@gmail.com</a></td>
+										<td>
+											<span>+1 123 456 7890</span>
+										</td>
+										<td>
+											<span>Female</span>
+										</td>
+										<td>
+											<span>USA</span>
+										</td>
+										<td>
+											<span class="badge badge-success light border-0">Active</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox22" required="">
+												<label class="form-check-label" for="customCheckBox22"></label>
+											</div>
+										</td>
+										<td><span>059</span></td>
+										<td>
+											<div class="products">
+												<img src="~/w3crm/images/contacts/pic2.jpg" class="avatar avatar-md" alt="">
+												<div>
+													<h6><a href="@Url.Action("Profile2", "w3crm")">Ricky men</a></h6>
+													<span>Web Designer</span>
+												</div>
+											</div>
+										</td>
+										<td><a href="javascript:void(0)" class="text-primary">rm@gmail.com</a></td>
+										<td>
+											<span>+16 123 456 7890</span>
+										</td>
+										<td>
+											<span>Female</span>
+										</td>
+										<td>
+											<span>UK</span>
+										</td>
+										<td>
+											<span class="badge badge-success light border-0">Active</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox2" required="">
+												<label class="form-check-label" for="customCheckBox2"></label>
+											</div>
+										</td>
+										<td><span>001</span></td>
+										<td>
+											<div class="products">
+												<img src="~/w3crm/images/contacts/pic1.jpg" class="avatar avatar-md" alt="">
+												<div>
+													<h6><a href="@Url.Action("Profile2", "w3crm")">Ricky Seme</a></h6>
+													<span>Web Designer</span>
+												</div>
+											</div>
+										</td>
+										<td><a href="javascript:void(0)" class="text-primary">rs@gmail.com</a></td>
+										<td>
+											<span>+1 123 456 7890</span>
+										</td>
+										<td>
+											<span>Female</span>
+										</td>
+										<td>
+											<span>USA</span>
+										</td>
+										<td>
+											<span class="badge badge-success light border-0">Active</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox3" required="">
+												<label class="form-check-label" for="customCheckBox3"></label>
+											</div>
+										</td>
+										<td><span>0015</span></td>
+										<td>
+											<div class="products">
+												<img src="~/w3crm/images/contacts/pic3.jpg" class="avatar avatar-md" alt="">
+												<div>
+													<h6><a href="javascript:void(0)">Charlotte Sarah</a></h6>
+													<span>Web Doveloper</span>
+												</div>
+											</div>
+										</td>
+										<td><a href="javascript:void(0)" class="text-primary">cs@gmail.com</a></td>
+										<td>
+											<span>+2 123 456 7890</span>
+										</td>
+										<td>
+											<span>CA</span>
+										</td>
+										<td>
+											<span>TX</span>
+										</td>
+										<td>
+											<span class="badge badge-danger light border-0">Pending</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox4" required="">
+												<label class="form-check-label" for="customCheckBox4"></label>
+											</div>
+										</td>
+										<td><span>0016</span></td>
+										<td>
+											<div class="products">
+												<img src="~/w3crm/images/contacts/pic1.jpg" class="avatar avatar-md" alt="">
+												<div>
+													<h6><a href="@Url.Action("Profile2", "w3crm")">Madison Jessica</a></h6>
+													<span>Web Designer</span>
+												</div>
+											</div>
+										</td>
+										<td><a href="javascript:void(0)" class="text-primary">mj@gmail.com</a></td>
+										<td>
+											<span>+022 123 456 7890</span>
+										</td>
+										<td>
+											<span>Female</span>
+										</td>
+										<td>
+											<span>WA</span>
+										</td>
+										<td>
+											<span class="badge badge-success light border-0">Active</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox44" required="">
+												<label class="form-check-label" for="customCheckBox44"></label>
+											</div>
+										</td>
+										<td><span>0056</span></td>
+										<td>
+											<div class="products">
+												<img src="~/w3crm/images/contacts/pic2.jpg" class="avatar avatar-md" alt="">
+												<div>
+													<h6><a href="@Url.Action("Profile2", "w3crm")">Rodriguez Jessica</a></h6>
+													<span>Web Doveloper</span>
+												</div>
+											</div>
+										</td>
+										<td><a href="javascript:void(0)" class="text-primary">mj@gmail.com</a></td>
+										<td>
+											<span>+044 123 456 7890</span>
+										</td>
+										<td>
+											<span>Female</span>
+										</td>
+										<td>
+											<span>KS</span>
+										</td>
+										<td>
+											<span class="badge badge-success light border-0">Active</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox55" required="">
+												<label class="form-check-label" for="customCheckBox55"></label>
+											</div>
+										</td>
+										<td><span>0017</span></td>
+										<td>
+											<div class="products">
+												<img src="~/w3crm/images/contacts/pic3.jpg" class="avatar avatar-md" alt="">
+												<div>
+													<h6><a href="@Url.Action("Profile2", "w3crm")">Abigail Margaret</a></h6>
+													<span>Web Designer</span>
+												</div>
+											</div>
+										</td>
+										<td><a href="javascript:void(0)" class="text-primary">am@gmail.com</a></td>
+										<td>
+											<span>+56 123 456 7890</span>
+										</td>
+										<td>
+											<span>Male</span>
+										</td>
+										<td>
+											<span>PA</span>
+										</td>
+										<td>
+											<span class="badge badge-success light border-0">Active</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox5" required="">
+												<label class="form-check-label" for="customCheckBox5"></label>
+											</div>
+										</td>
+										<td><span>0017</span></td>
+										<td>
+											<div class="products">
+												<img src="~/w3crm/images/contacts/pic3.jpg" class="avatar avatar-md" alt="">
+												<div>
+													<h6><a href="@Url.Action("Profile2", "w3crm")">Martinez Margaret</a></h6>
+													<span>Web Designer</span>
+												</div>
+											</div>
+										</td>
+										<td><a href="javascript:void(0)" class="text-primary">am@gmail.com</a></td>
+										<td>
+											<span>+88 123 456 7890</span>
+										</td>
+										<td>
+											<span>Male</span>
+										</td>
+										<td>
+											<span>WA</span>
+										</td>
+										<td>
+											<span class="badge badge-success light border-0">Active</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox6" required="">
+												<label class="form-check-label" for="customCheckBox6"></label>
+											</div>
+										</td>
+										<td><span>007</span></td>
+										<td>
+											<div class="products">
+												<img src="~/w3crm/images/contacts/pic2.jpg" class="avatar avatar-md" alt="">
+												<div>
+													<h6><a href="javascript:void(0)">Ricky Antony</a></h6>
+													<span>App Designer</span>
+												</div>
+											</div>
+										</td>
+										<td><a href="javascript:void(0)" class="text-primary">ra@gmail.com</a></td>
+										<td>
+											<span>+588 123 456 7890</span>
+										</td>
+										<td>
+											<span>Male</span>
+										</td>
+										<td>
+											<span>USA</span>
+										</td>
+										<td>
+											<span class="badge badge-danger light border-0">Pending</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox7" required="">
+												<label class="form-check-label" for="customCheckBox7"></label>
+											</div>
+										</td>
+										<td><span>008</span></td>
+										<td>
+											<div class="products">
+												<img src="~/w3crm/images/contacts/pic2.jpg" class="avatar avatar-md" alt="">
+												<div>
+													<h6><a href="@Url.Action("Profile2", "w3crm")">Amelia Antony</a></h6>
+													<span>Web Designer</span>
+												</div>
+											</div>
+										</td>
+										<td><a href="javascript:void(0)" class="text-primary">ant@gmail.com</a></td>
+										<td>
+											<span>+580 123 456 7890</span>
+										</td>
+										<td>
+											<span>Male</span>
+										</td>
+										<td>
+											<span>NYC</span>
+										</td>
+										<td>
+											<span class="badge badge-success light border-0">Active</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox8" required="">
+												<label class="form-check-label" for="customCheckBox8"></label>
+											</div>
+										</td>
+										<td><span>009</span></td>
+										<td>
+											<div class="products">
+												<img src="~/w3crm/images/contacts/pic1.jpg" class="avatar avatar-md" alt="">
+												<div>
+													<h6><a href="@Url.Action("Profile2", "w3crm")">Ricky Olivia</a></h6>
+													<span>Web Doveloper</span>
+												</div>
+											</div>
+										</td>
+										<td><a href="javascript:void(0)" class="text-primary">ro@gmail.com</a></td>
+										<td>
+											<span>+78 123 456 7890</span>
+										</td>
+										<td>
+											<span>Female</span>
+										</td>
+										<td>
+											<span>NC</span>
+										</td>
+										<td>
+											<span class="badge badge-danger light border-0">Pending</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox9" required="">
+												<label class="form-check-label" for="customCheckBox9"></label>
+											</div>
+										</td>
+										<td><span>010</span></td>
+										<td>
+											<div class="products">
+												<img src="~/w3crm/images/contacts/pic3.jpg" class="avatar avatar-md" alt="">
+												<div>
+													<h6><a href="@Url.Action("Profile2", "w3crm")">Ricky Isla</a></h6>
+													<span>Web Designer</span>
+												</div>
+											</div>
+										</td>
+										<td><a href="javascript:void(0)" class="text-primary">ri@gmail.com</a></td>
+										<td>
+											<span>+80 123 456 7890</span>
+										</td>
+										<td>
+											<span>Male</span>
+										</td>
+										<td>
+											<span>FL</span>
+										</td>
+										<td>
+											<span class="badge badge-success light border-0">Active</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox10" required="">
+												<label class="form-check-label" for="customCheckBox10"></label>
+											</div>
+										</td>
+										<td><span>011</span></td>
+										<td>
+											<div class="products">
+												<img src="~/w3crm/images/contacts/pic3.jpg" class="avatar avatar-md" alt="">
+												<div>
+													<h6><a href="@Url.Action("Profile2", "w3crm")">Emily Elizabeth</a></h6>
+													<span>Web Designer</span>
+												</div>
+											</div>
+										</td>
+										<td><a href="javascript:void(0)" class="text-primary">ee@gmail.com</a></td>
+										<td>
+											<span>+80 123 456 7890</span>
+										</td>
+										<td>
+											<span>Female</span>
+										</td>
+										<td>
+											<span>GA</span>
+										</td>
+										<td>
+											<span class="badge badge-success light border-0">Active</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="form-check custom-checkbox">
+												<input type="checkbox" class="form-check-input" id="customCheckBox11" required="">
+												<label class="form-check-label" for="customCheckBox11"></label>
+											</div>
+										</td>
+										<td><span>012</span></td>
+										<td>
+											<div class="products">
+												<img src="~/w3crm/images/contacts/pic2.jpg" class="avatar avatar-md" alt="">
+												<div>
+													<h6><a href="@Url.Action("Profile2", "w3crm")">Isabella Tracy</a></h6>
+													<span>Web Designer</span>
+												</div>
+											</div>
+										</td>
+										<td><a href="javascript:void(0)" class="text-primary">it@gmail.com</a></td>
+										<td>
+											<span>+59 123 456 7890</span>
+										</td>
+										<td>
+											<span>Male</span>
+										</td>
+										<td>
+											<span>SC</span>
+										</td>
+										<td>
+											<span class="badge badge-danger light border-0">Pending</span>
+										</td>
+									</tr>
+								</tbody>
+
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!--**********************************
+	Content body end
+***********************************-->
+@section w3crm_style
+	{
+	<link href="~/w3crm/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
+	<link href="https://cdn.datatables.net/buttons/1.6.4/css/buttons.dataTables.min.css" rel="stylesheet">
+	<link href="~/w3crm/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+	<!-- tagify-css -->
+
+	<link href="~/w3crm/vendor/tagify/dist/tagify.css" rel="stylesheet">
+}
+
+@section w3crm_script
+	{
+	<!--**********************************
+		Scripts
+	***********************************-->
+	<!-- Required vendors -->
+	<script src="~/w3crm/vendor/global/global.min.js"></script>
+	<script src="~/w3crm/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+	<script src="~/w3crm/vendor/apexchart/apexchart.js"></script>
+	<!-- Dashboard 1 -->
+	<script src="~/w3crm/vendor/tagify/dist/tagify.js"></script>
+	<!-- tagify -->
+	<script src="~/w3crm/vendor/datatables/js/jquery.dataTables.min.js"></script>
+	<script src="~/w3crm/vendor/datatables/js/dataTables.buttons.min.js"></script>
+	<script src="~/w3crm/vendor/datatables/js/buttons.html5.min.js"></script>
+	<script src="~/w3crm/vendor/datatables/js/jszip.min.js"></script>
+	<script src="~/w3crm/js/plugins-init/datatables.init.js"></script>
+
+	<!-- Apex Chart -->
+	<script src="~/w3crm/vendor/bootstrap-datetimepicker/js/moment.js"></script>
+	<script src="~/w3crm/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+	<!-- Vectormap -->
+	<script src="~/w3crm/js/custom.js"></script>
+	<script src="~/w3crm/js/deznav-init.js"></script>
+	<script src="~/w3crm/js/demo.js"></script>
+	<script src="~/w3crm/js/styleSwitcher.js"></script>
+}

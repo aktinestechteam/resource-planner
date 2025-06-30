@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <partial name="w3crm/_Meta" />
+    <!-- PAGE TITLE HERE -->
+    <title>[@ViewBag.Title] W3CRM Customer Relationship Management</title>
+    <!-- FAVICONS ICON -->
+    <link rel="shortcut icon" type="image/png" href="~/w3crm/images/favicon.png">
+    @RenderSection("w3crm_style", false)
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="~/w3crm/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="~/w3crm/css/style.css" rel="stylesheet">
+</head>
+<body class="vh-100">
+    <div class="authincation h-100">
+        @RenderBody()
+    </div>
+    @RenderSection("w3crm_script", false)
+</body>
+</html>
