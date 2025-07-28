@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\demo\" />
+    <Folder Include="wwwroot\lib\lucksheet\css\" />
+    <Folder Include="wwwroot\w3crm\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sutherland.WFMResourcePlanner.Entities\Sutherland.WFMResourcePlanner.Entities.csproj" />
+    <ProjectReference Include="..\Sutherland.WFMResourcePlanner.Repository\Sutherland.WFMResourcePlanner.Repository.csproj" />
+    <ProjectReference Include="..\Sutherland.WFMResourcePlanner.Utilities\Sutherland.WFMResourcePlanner.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

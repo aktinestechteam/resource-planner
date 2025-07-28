@@ -1,0 +1,12 @@
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Entities\bin\Debug\net6.0\Sutherland.WFMResourcePlanner.Entities.deps.json
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Entities\bin\Debug\net6.0\Sutherland.WFMResourcePlanner.Entities.dll
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Entities\bin\Debug\net6.0\Sutherland.WFMResourcePlanner.Entities.pdb
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Entities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Entities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Entities.AssemblyInfoInputs.cache
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Entities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Entities.AssemblyInfo.cs
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Entities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Entities.csproj.CoreCompileInputs.cache
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Entities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Entities.sourcelink.json
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Entities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Entities.dll
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Entities\obj\Debug\net6.0\refint\Sutherland.WFMResourcePlanner.Entities.dll
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Entities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Entities.pdb
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Entities\obj\Debug\net6.0\ref\Sutherland.WFMResourcePlanner.Entities.dll

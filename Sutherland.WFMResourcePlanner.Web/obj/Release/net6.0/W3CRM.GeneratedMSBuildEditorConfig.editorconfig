@@ -1,0 +1,503 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = W3CRM
+build_property.RootNamespace = W3CRM
+build_property.ProjectDir = C:\Laxmikant\sourcecode\mvc\ASPNET-W3CRM-v1.0-5-September-2023\W3CRM\W3CRM\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Laxmikant\sourcecode\mvc\ASPNET-W3CRM-v1.0-5-September-2023\W3CRM\W3CRM
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/w3crm/_AddAttendance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHczY3JtXF9BZGRBdHRlbmRhbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/w3crm/_AddEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHczY3JtXF9BZGRFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/w3crm/_AddNewTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHczY3JtXF9BZGROZXdUYXNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/w3crm/_AddPrompt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHczY3JtXF9BZGRQcm9tcHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/w3crm/_ChatBox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHczY3JtXF9DaGF0Qm94LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/w3crm/_EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHczY3JtXF9FZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/w3crm/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHczY3JtXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/w3crm/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHczY3JtXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/w3crm/_InviteEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHczY3JtXF9JbnZpdGVFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/w3crm/_JobTitle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHczY3JtXF9Kb2JUaXRsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/w3crm/_Meta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHczY3JtXF9NZXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/w3crm/_NavHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHczY3JtXF9OYXZIZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/w3crm/_PreLoader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHczY3JtXF9QcmVMb2FkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/w3crm/_SideBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHczY3JtXF9TaWRlQmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/_LayoutW3CRM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRXM0NSTS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/_LayoutW3CRMBlank.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRXM0NSTUJsYW5rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Accordion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQWNjb3JkaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/AddRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQWRkUm9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/AddUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQWRkVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/AIMenuPrompts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQUlNZW51UHJvbXB0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Alert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQWxlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/AutoWriter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQXV0b1dyaXRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Badge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQmFkZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/BlogCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQmxvZ0NhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Bootstrap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQm9vdHN0cmFwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Button.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQnV0dG9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/ButtonGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQnV0dG9uR3JvdXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Calendar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ2FsZW5kYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Cards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ2FyZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Carousel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ2Fyb3VzZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Chartist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ2hhcnRpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Chartjs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ2hhcnRqcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Chat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ2hhdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Chatbot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ2hhdGJvdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/CkEditor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ2tFZGl0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Compose.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ29tcG9zZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ29udGFjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Content.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ29udGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/ContentAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ29udGVudEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/CoreHR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ29yZUhSLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Customer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/CustomerProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cQ3VzdG9tZXJQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Datatable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRGF0YXRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Dropdown.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRHJvcGRvd24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/EcomCustomers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRWNvbUN1c3RvbWVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRWRpdFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/EmailTemplate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRW1haWxUZW1wbGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Employee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/EmptyPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRW1wdHlQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Error400.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRXJyb3I0MDAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Error403.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRXJyb3I0MDMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRXJyb3I0MDQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Error500.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRXJyb3I1MDAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Error503.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRXJyb3I1MDMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/ExportImportSettings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRXhwb3J0SW1wb3J0U2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Finance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRmluYW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/FineTuneModels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRmluZVR1bmVNb2RlbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Flot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRmxvdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/FormElements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRm9ybUVsZW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/FormValidate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cRm9ybVZhbGlkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Grid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cR3JpZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Inbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cSW5ib3guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cSW5kZXgyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Invoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cSW52b2ljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/JqvMap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cSnF2TWFwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/LightGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cTGlnaHRHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/ListGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cTGlzdEdyb3VwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/LockScreen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cTG9ja1NjcmVlbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/ManageClients.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cTWFuYWdlQ2xpZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Menus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cTWVudXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Modal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cTW9kYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Morris.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cTW9ycmlzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Nestable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cTmVzdGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/NouiSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cTm91aVNsaWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Pagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUGFnaW5hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Peity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUGVpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Performance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUGVyZm9ybWFuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Pickers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUGlja2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Popover.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUG9wb3Zlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/PostDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUG9zdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUHJvZHVjdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/ProductGrid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUHJvZHVjdEdyaWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUHJvZHVjdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Profile1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUHJvZmlsZTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Profile2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUHJvZmlsZTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Progressbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUHJvZ3Jlc3NiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Projects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUHJvamVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUmVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Reports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUmVwb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Repurpose.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUmVwdXJwb3NlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/RoleListing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUm9sZUxpc3RpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/RSS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cUlNTLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Scheduler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cU2NoZWR1bGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Select2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cU2VsZWN0Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cU2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Sparkline.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cU3BhcmtsaW5lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/SVGIcons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cU1ZHSWNvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/SweetAlert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cU3dlZXRBbGVydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Tab.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cVGFiLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Task.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cVGFzay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/TaskSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cVGFza1N1bW1hcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Toastr.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cVG9hc3RyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Typography.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cVHlwb2dyYXBoeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Widget.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cV2lkZ2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/w3crm/Wizard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdzNjcm1cV2l6YXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Laxmikant/sourcecode/mvc/ASPNET-W3CRM-v1.0-5-September-2023/W3CRM/W3CRM/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6nzfj4s0s0

@@ -1,0 +1,172 @@
+﻿@{
+	ViewData["Title"] = "TaskSummary";
+}
+<!--**********************************
+			Content body start
+		***********************************-->
+<div class="content-body">
+	<!-- row -->
+	<div class="page-titles">
+		<ol class="breadcrumb">
+			<li><h5 class="bc-title">Plan</h5></li>
+			<li class="breadcrumb-item">
+				<a href="javascript:void(0)">
+					<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M2.125 6.375L8.5 1.41667L14.875 6.375V14.1667C14.875 14.5424 14.7257 14.9027 14.4601 15.1684C14.1944 15.4341 13.8341 15.5833 13.4583 15.5833H3.54167C3.16594 15.5833 2.80561 15.4341 2.53993 15.1684C2.27426 14.9027 2.125 14.5424 2.125 14.1667V6.375Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M6.375 15.5833V8.5H10.625V15.5833" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+					Home
+				</a>
+			</li>
+			<li class="breadcrumb-item active"><a href="javascript:void(0)">Plan Summary</a></li>
+		</ol>
+		<a class="text-primary fs-13" data-bs-toggle="offcanvas" href="#offcanvasExample1" role="button" aria-controls="offcanvasExample1">+ Add Task</a>
+	</div>
+	<div class="container-fluid">
+		<div class="d-flex justify-content-between align-items-center mb-4">
+			<h5 class="mb-0">Plans Summary</h5>
+			<div class="d-flex align-items-center">
+				<div class="icon-box  icon-box-sm task-tab me-2">
+					<a id="toggleViewBtnList">
+						<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6.8335 5.5H17.6668" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							<path d="M6.8335 10.5H17.6668" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							<path d="M6.8335 15.5H17.6668" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							<path d="M2.66699 5.5H2.67699" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							<path d="M2.66699 10.5H2.67699" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							<path d="M2.66699 15.5H2.67699" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</a>
+					<a class="d-none" id="toggleViewBtnCards">
+						<svg width="20" height="20" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M8.50032 3H2.66699V8.83333H8.50032V3Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+							<path d="M17.6668 3H11.8335V8.83333H17.6668V3Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+							<path d="M17.6668 12.1667H11.8335V18H17.6668V12.1667Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+							<path d="M8.50032 12.1667H2.66699V18H8.50032V12.1667Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+						</svg>
+
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row kanban-bx">
+
+			<div id="listView" class="plan-view d-none">
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>Plan Name</th>
+							<th>Vertical</th>
+							<th>Account</th>
+							<th>Geo</th>
+							<th>Site</th>
+							<th>Plan Dates</th>
+							<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody id="listContainer">
+						<!-- Filled by jQuery -->
+					</tbody>
+				</table>
+			</div>
+
+			<div id="cardView" class="plan-view">
+			<div id="plansContainer" class="row g-4"></div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<!--**********************************
+	Content body end
+***********************************-->
+@section w3crm_style
+{
+	<link href="~/w3crm/vendor/swiper/css/swiper-bundle.min.css" rel="stylesheet">
+	<link href="~/w3crm/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
+	<link href="https://cdn.datatables.net/buttons/1.6.4/css/buttons.dataTables.min.css" rel="stylesheet">
+	<link href="~/w3crm/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+	<!-- tagify-css -->
+	<link href="~/w3crm/vendor/tagify/dist/tagify.css" rel="stylesheet">
+	<style>
+		.plan-card {
+			border: none;
+			border-radius: 1rem;
+			background: #ffffff;
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+			transition: transform 0.2s ease, box-shadow 0.2s ease;
+		}
+
+			.plan-card:hover {
+				transform: translateY(-4px);
+				box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+			}
+
+		.plan-header {
+			font-size: 1.25rem;
+			font-weight: 600;
+			color: #34495e;
+			margin-bottom: 10px;
+		}
+
+		.plan-meta {
+			font-size: 0.9rem;
+			color: #7f8c8d;
+			line-height: 1.6;
+		}
+
+		.plan-actions .btn {
+			margin-right: 0.5rem;
+		}
+
+		.btn-primary {
+			background-color: #1d72b8;
+			border-color: #1d72b8;
+		}
+
+		.btn-secondary {
+			background-color: #6c757d;
+			border-color: #6c757d;
+		}
+
+		.no-data {
+			text-align: center;
+			padding: 50px 0;
+			color: #999;
+			font-size: 1.2rem;
+		}
+
+		.d-none {
+			display: none !important;
+		}
+
+	</style>
+
+}
+
+@section w3crm_script
+{
+	<!--**********************************
+		Scripts
+	***********************************-->
+	<!-- Required vendors -->
+	<script src="~/w3crm/vendor/global/global.min.js"></script>
+	<script src="~/w3crm/vendor/chart.js/Chart.bundle.min.js"></script>
+	<script src="~/w3crm/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+
+	<!-- Dashboard 1 -->
+	<script src="~/w3crm/vendor/draggable/draggable.js"></script>
+
+	<!-- tagify -->
+	<script src="~/w3crm/vendor/tagify/dist/tagify.js"></script>
+
+
+	<!-- Apex Chart -->
+	<script src="~/w3crm/js/custom.js"></script>
+	<script src="~/w3crm/js/deznav-init.js"></script>
+	<script src="~/w3crm/js/demo.js"></script>
+	<script src="~/w3crm/js/styleSwitcher.js"></script>
+	<script src="~/app/js/plan-summary.js" asp-append-version="true"></script>
+}

@@ -1,0 +1,330 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\Sutherland.WFMResourcePlanner.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Entities\\Sutherland.WFMResourcePlanner.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Entities\\Sutherland.WFMResourcePlanner.Entities.csproj",
+        "projectName": "Sutherland.WFMResourcePlanner.Entities",
+        "projectPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Entities\\Sutherland.WFMResourcePlanner.Entities.csproj",
+        "packagesPath": "C:\\Users\\Laxmikant\\.nuget\\packages\\",
+        "outputPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Laxmikant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Repository\\Sutherland.WFMResourcePlanner.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Repository\\Sutherland.WFMResourcePlanner.Repository.csproj",
+        "projectName": "Sutherland.WFMResourcePlanner.Repository",
+        "projectPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Repository\\Sutherland.WFMResourcePlanner.Repository.csproj",
+        "packagesPath": "C:\\Users\\Laxmikant\\.nuget\\packages\\",
+        "outputPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Laxmikant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Entities\\Sutherland.WFMResourcePlanner.Entities.csproj": {
+                "projectPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Entities\\Sutherland.WFMResourcePlanner.Entities.csproj"
+              },
+              "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Utilities\\Sutherland.WFMResourcePlanner.Utilities.csproj": {
+                "projectPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Utilities\\Sutherland.WFMResourcePlanner.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Utilities\\Sutherland.WFMResourcePlanner.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Utilities\\Sutherland.WFMResourcePlanner.Utilities.csproj",
+        "projectName": "Sutherland.WFMResourcePlanner.Utilities",
+        "projectPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Utilities\\Sutherland.WFMResourcePlanner.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Laxmikant\\.nuget\\packages\\",
+        "outputPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Laxmikant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\Sutherland.WFMResourcePlanner.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\Sutherland.WFMResourcePlanner.Web.csproj",
+        "projectName": "Sutherland.WFMResourcePlanner.Web",
+        "projectPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\Sutherland.WFMResourcePlanner.Web.csproj",
+        "packagesPath": "C:\\Users\\Laxmikant\\.nuget\\packages\\",
+        "outputPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Laxmikant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Entities\\Sutherland.WFMResourcePlanner.Entities.csproj": {
+                "projectPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Entities\\Sutherland.WFMResourcePlanner.Entities.csproj"
+              },
+              "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Repository\\Sutherland.WFMResourcePlanner.Repository.csproj": {
+                "projectPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Repository\\Sutherland.WFMResourcePlanner.Repository.csproj"
+              },
+              "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Utilities\\Sutherland.WFMResourcePlanner.Utilities.csproj": {
+                "projectPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Utilities\\Sutherland.WFMResourcePlanner.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

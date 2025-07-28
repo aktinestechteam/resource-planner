@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Sutherland.WFMResourcePlanner.Web.props" />
+</Project>

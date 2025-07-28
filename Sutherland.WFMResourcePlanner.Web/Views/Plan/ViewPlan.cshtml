@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "View Plan";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>View Plan in Luckysheet</title>
+
+    <!-- LuckySheet CSS -->
+    <link href="~/lib/lucksheet/css/pluginscss.css" rel="stylesheet" />
+    <link href="~/lib/lucksheet/css/plugins.css" rel="stylesheet" />
+    <link href="~/lib/lucksheet/css/luckysheet.css" rel="stylesheet" />
+    <link href="~/lib/lucksheet/css/iconfont.css" rel="stylesheet" />
+    <link href="~/lib/lucksheet/css/chartmix.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #luckysheet {
+            margin: 0px;
+            padding: 0px;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="hidden" id="planId" value="@ViewBag.PlanId">
+    <div id="saveContainer" style="display: none; margin-top: 10px;">
+        <button id="btnSaveSheets" class="btn btn-success">💾 Save</button>
+        <span id="loader" style="display: none; margin-left: 10px;">Saving...</span>
+    </div>
+
+    <div id="luckysheet"></div>
+
+    <!-- LuckySheet JS -->
+    <script src="~/lib/lucksheet/js/plugin.js"></script>
+    <script src="~/lib/lucksheet/js/luckysheet.umd.js"></script>
+    <script src="~/lib/lucksheet/js/echarts.min.js"></script>
+    <script src="~/lib/lucksheet/js/chartmix.umd.min.js"></script>
+    <script src="~/app/js/view-plan.js" asp-append-version="true"></script>
+    <!-- jQuery -->
+
+
+
+
+</body>
+</html>
