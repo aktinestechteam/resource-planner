@@ -20,7 +20,6 @@
 			</li>
 			<li class="breadcrumb-item active"><a href="javascript:void(0)">Plan Summary</a></li>
 		</ol>
-		<a class="text-primary fs-13" data-bs-toggle="offcanvas" href="#offcanvasExample1" role="button" aria-controls="offcanvasExample1">+ Add Task</a>
 	</div>
 	<div class="container-fluid">
 		<div class="d-flex justify-content-between align-items-center mb-4">
@@ -77,6 +76,31 @@
 
 	</div>
 </div>
+
+<div class="modal fade" id="copyPlanModal" tabindex="-1" aria-labelledby="copyPlanModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<form id="copyPlanForm">
+				<div class="modal-header">
+					<h5 class="modal-title" id="copyPlanModalLabel" ></h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<input type="hidden" id="sourcePlanId">
+					<div class="mb-3">
+						<label for="newPlanName" class="form-label">New Plan Name</label>
+						<input type="text" class="form-control" id="newPlanName" required>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="submit" class="btn btn-success">Create Copy</button>
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
 
 <!--**********************************
 	Content body end
@@ -154,6 +178,7 @@
 	<!-- Required vendors -->
 	<script src="~/w3crm/vendor/global/global.min.js"></script>
 	<script src="~/w3crm/vendor/chart.js/Chart.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="~/w3crm/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
 
 	<!-- Dashboard 1 -->

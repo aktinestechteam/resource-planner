@@ -64,10 +64,12 @@ namespace Sutherland.WFMResourcePlanner.Web.Controllers
             }
         }
 
-        public IActionResult ViewPlan(int id)
+        public IActionResult ViewPlan(int planId, string accountName, string planName)
         {
-            ViewBag.PlanId = id;
-            return View();
+            ViewBag.PlanId = planId;
+			ViewBag.AccountName = accountName;
+			ViewBag.PlanName = planName;
+			return View();
         }
 
         public async Task<IActionResult> GetPlanById(int id)
@@ -95,6 +97,16 @@ namespace Sutherland.WFMResourcePlanner.Web.Controllers
 		{
 			var plans = await _planRepository.GetAllPlansAsync();
 			return Ok(plans);
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> CopyPlan([FromBody] CopyPlanDto dto)
+		{
+			if (string.IsNullOrWhiteSpace(dto.NewPlanTitle) || dto.SourcePlanId <= 0)
+				return BadRequest("Invalid input.");
+
+			var newPlanId = await _planRepository.CopyPlanAsync(dto);
+			return Ok(new { newPlanId });
 		}
 
 	}

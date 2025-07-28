@@ -1,4 +1,5 @@
 ﻿$(function () {
+    let copyModal = new bootstrap.Modal(document.getElementById('copyPlanModal'));
     loadPlans();
     function loadPlans() {
 
@@ -43,8 +44,9 @@
           <td>${p.site}</td>
           <td>${formatDate(p.planFrom)} - ${formatDate(p.planTo)}</td>
           <td>
-              <a href="/Plan/ViewPlan/${p.planId}" class="btn btn-sm btn-primary">View</a>
-			  <a href="/Plan/Edit/${p.planId}" class="btn btn-sm btn-secondary">Edit</a>
+            <a href="/Plan/ViewPlan?planId=${p.planId}&accountName=${encodeURIComponent(p.account)}&planName=${encodeURIComponent(p.name)}" class="btn btn-sm btn-primary">View</a>
+			<a href="/Plan/ViewPlan?planId=${p.planId}&accountName=${encodeURIComponent(p.account)}&planName=${encodeURIComponent(p.name)}" class="btn btn-sm btn-secondary">Edit</a>
+            <button class="btn btn-sm btn-outline-success copy-plan-btn" data-plan-id=${p.planId} data-plan-name="${p.name}">Create Copy</button>
             </td>
         </tr>`;
             });
@@ -68,8 +70,9 @@
 										</div>
 									</div>
 									<div class="mt-3 plan-actions">
-										<a href="/Plan/ViewPlan/${plan.planId}" class="btn btn-sm btn-primary">View</a>
-										<a href="/Plan/Edit/${plan.planId}" class="btn btn-sm btn-secondary">Edit</a>
+										<a href="/Plan/ViewPlan?planId=${plan.planId}&accountName=${encodeURIComponent(plan.account)}&planName=${encodeURIComponent(plan.name)}" class="btn btn-sm btn-primary">View</a>
+										<a href="/Plan/ViewPlan?planId=${plan.planId}&accountName=${encodeURIComponent(plan.account)}&planName=${encodeURIComponent(plan.name)}" class="btn btn-sm btn-secondary">Edit</a>
+                                        <button class="btn btn-sm btn-outline-success copy-plan-btn" data-plan-id=${plan.planId} data-plan-name="${plan.name}">Create Copy</button>
 									</div>
 								</div>
 							</div>
@@ -85,7 +88,50 @@
         return date.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
     }
 
+    
 
+    // Open modal and populate plan ID
+    $(document).on('click', '.copy-plan-btn', function () {
+
+        const planId = $(this).data('plan-id');
+        const planName = $(this).data('plan-name');
+        $('#sourcePlanId').val(planId);
+        $('#copyPlanModalLabel').text("Create a Copy of Plan - " + planName)
+       
+        $('#newPlanName').val('');
+        copyModal.show();
+    });
+
+    // Handle copy form submit
+    $('#copyPlanForm').on('submit', function (e) {
+        e.preventDefault();
+
+        const sourcePlanId = $('#sourcePlanId').val();
+        const newPlanName = $('#newPlanName').val().trim();
+
+        if (!newPlanName) {
+            alert('Please enter a plan name.');
+            return;
+        }
+
+        $.ajax({
+            url: '/Plan/CopyPlan',
+            method: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({
+                sourcePlanId: sourcePlanId,
+                newPlanTitle: newPlanName
+            }),
+            success: function (response) {
+                copyModal.hide();
+                alert('Plan copied successfully!');
+                location.reload();
+            },
+            error: function () {
+                alert('Failed to copy plan. Please try again.');
+            }
+        });
+    });
 
 
 

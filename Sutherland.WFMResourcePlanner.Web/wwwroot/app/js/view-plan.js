@@ -1,4 +1,5 @@
 ﻿$(function () {
+
     let currentSheets = [];
     const planId = $('#planId').val();
     $.ajax({
@@ -50,24 +51,54 @@
             alert("Failed to load plan data.");
         }
     });
+
+    document.addEventListener("contextmenu", function (e) {
+        const tab = e.target.closest(".luckysheet-sheets-item");
+        if (!tab) return;
+
+        const sheetName = tab.querySelector(".luckysheet-sheets-item-name").textContent;
+        const sheet = currentSheets.find(m => m.name === sheetName);
+            if (sheet && sheet.type && sheet.type !== "Custom") {
+                $('#luckysheetsheetconfigdelete').css('display', 'none');
+                $('#luckysheetsheetconfigrename').css('display', 'none');
+
+            } else {
+                $('#luckysheetsheetconfigdelete').css('display', 'block');
+                $('#luckysheetsheetconfigrename').css('display', 'none');
+            }
+    });
+
     $('#btnSaveSheets').on('click', function () {
-        $('#loader').show();
+        $('#loader-overlay').css('display','flex'); // Show the Bootstrap spinner
+        $(this).prop('disabled', true); // Disable save button during saving
         const allSheets = luckysheet.getAllSheets(); // current sheet order
         const updatedSheets = [];
         for (let i = 0; i < allSheets.length; i++) {
-            const sheetData = luckysheet.getSheet(i);
+            const sheetData = allSheets[i];
             const jsonData = JSON.stringify(sheetData);
             // Match original metadata by sheet name
             const meta = currentSheets.find(m => m.name === sheetData.name);
-            if (!meta) continue;
-            updatedSheets.push({
-                id: meta.planSheetId,
-                planId: planId,
-                lobId: meta.lobId,
-                name: sheetData.name,
-                type: meta.type,
-                jsonData: jsonData
-            });
+            if (!meta) {
+                updatedSheets.push({
+                    id: 0,
+                    planId: planId,
+                    lobId:0,
+                    name: sheetData.name,
+                    type: "Custom",
+                    jsonData: jsonData
+                });
+
+            } else { 
+                updatedSheets.push({
+                    id: meta.planSheetId,
+                    planId: planId,
+                    lobId: meta.lobId,
+                    name: sheetData.name,
+                    type: meta.type,
+                    jsonData: jsonData
+                });
+            }
+           
         }
         $.ajax({
             url: '/Plan/saveSheets',
@@ -75,13 +106,34 @@
             contentType: 'application/json',
             data: JSON.stringify(updatedSheets),
             success: function () {
-                $('#loader').hide();
-                alert("Plan saved successfully!");
+                $('#loader-overlay').css('display', 'none');
+                $('#btnSaveSheets').prop('disabled', false); // Re-enable save button
+                showMessageBox("Plan saved successfully!"); // Use custom message box
             },
             error: function () {
-                $('#loader').hide();
-                alert("Error saving plan.");
+                $('#loader-overlay').css('display', 'none');
+                $('#btnSaveSheets').prop('disabled', false); // Re-enable save button
+                showMessageBox("Error saving plan."); // Use custom message box
             }
         });
+    });
+
+   
+    function showMessageBox(message) {
+        const messageBox = document.createElement('div');
+        messageBox.className = 'custom-message-box';
+        messageBox.innerHTML = `
+                <div class="custom-message-box-content">
+                    <p class="fs-5 fw-semibold mb-4">${message}</p>
+                    <button class="btn btn-primary" onclick="this.parentNode.parentNode.remove()">Close</button>
+                </div>
+            `;
+        document.body.appendChild(messageBox);
+    }
+    $('#btnViewVersions').on('click', function () {
+        window.location.href = "/Plan/PlanSummary";
+    });
+    $('#btnDashboard').on('click', function () {
+        window.location.href = "/w3crm/Index";
     });
 });

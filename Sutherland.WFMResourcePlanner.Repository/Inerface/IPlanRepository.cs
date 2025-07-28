@@ -14,6 +14,7 @@ namespace Sutherland.WFMResourcePlanner.Repository.Inerface
         Task<PlanWithSheetsDto?> GetPlanWithSheetsAsync(int planId);
         Task SaveSheetsAsync(List<SaveSheetDto> sheets);
         Task<IEnumerable<Plan>> GetAllPlansAsync();
+        Task<int> CopyPlanAsync(CopyPlanDto dto);
 
 	}
 }
