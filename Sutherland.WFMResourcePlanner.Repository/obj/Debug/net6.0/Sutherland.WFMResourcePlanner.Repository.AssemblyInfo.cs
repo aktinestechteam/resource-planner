@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sutherland.WFMResourcePlanner.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f83cb13f46e2e5c7edcf5727c3686912e28d879")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+436cc92369831639631b2360b24b524448c43eb3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sutherland.WFMResourcePlanner.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sutherland.WFMResourcePlanner.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
