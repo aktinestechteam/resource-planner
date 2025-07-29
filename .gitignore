@@ -1,2 +1,12 @@
+# Ignore build output
 bin/
 obj/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code settings (optional)
+.vscode/
