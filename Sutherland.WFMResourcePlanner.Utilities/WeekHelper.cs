@@ -37,21 +37,21 @@ namespace Sutherland.WFMResourcePlanner.Utilities
                 });
             }
 
-            // Inject formulas in "FTE Gap" row (row index 3)
-            for (int i = 0; i < weekHeaders.Count; i++)
-            {
-                string colLetter = GetExcelColumnName(i + 2); // B, C, D, etc.
+            //// Inject formulas in "FTE Gap" row (row index 3)
+            //for (int i = 0; i < weekHeaders.Count; i++)
+            //{
+            //    string colLetter = GetExcelColumnName(i + 2); // B, C, D, etc.
 
-                celldata.Add(new JObject
-                {
-                    ["r"] = 3,
-                    ["c"] = i + 1,
-                    ["v"] = new JObject
-                    {
-                        ["f"] = $"={colLetter}2-{colLetter}3"
-                    }
-                });
-            }
+            //    celldata.Add(new JObject
+            //    {
+            //        ["r"] = 3,
+            //        ["c"] = i + 1,
+            //        ["v"] = new JObject
+            //        {
+            //            ["f"] = $"={colLetter}2-{colLetter}3"
+            //        }
+            //    });
+            //}
 
             return sheet.ToString(); // Final modified JSON as string
         }
@@ -71,7 +71,7 @@ namespace Sutherland.WFMResourcePlanner.Utilities
 
             while (current <= end)
             {
-                result.Add(current.ToString("dd-MMM"));
+                result.Add(current.ToString("dd-MMM-yy"));
                 current = current.AddDays(7);
             }
 

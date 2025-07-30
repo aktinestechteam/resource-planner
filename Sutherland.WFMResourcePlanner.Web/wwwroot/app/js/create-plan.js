@@ -36,7 +36,7 @@
             data: JSON.stringify(formData),
             success: function (response) {
                 alert("Plan saved successfully!");
-                window.location.href = "/Plan/ViewPlan/" + response.planId;
+                window.location.href = `/Plan/ViewPlan?planId=${response.planId}&accountName=${encodeURIComponent(formData.Account)}&planName=${encodeURIComponent(formData.Name)}`
             },
             error: function (xhr) {
                 console.error("Save failed:", xhr.responseText);

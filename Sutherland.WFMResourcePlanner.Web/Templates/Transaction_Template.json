@@ -6,37 +6,54 @@
       "c": 0,
       "v": {
         "v": "Metric",
-        "bl": 1
+        "bl": 1,
+        "editable": false
       }
     },
     {
       "r": 1,
       "c": 0,
-      "v": { "v": "FTE Required" }
+      "v": {
+        "v": "FTE Required",
+        "editable": false
+      }
     },
     {
       "r": 2,
       "c": 0,
-      "v": { "v": "FTE Available" }
+      "v": {
+        "v": "FTE Available",
+        "editable": false
+      }
     },
     {
       "r": 3,
       "c": 0,
-      "v": { "v": "FTE Gap" }
+      "v": {
+        "v": "FTE Gap",
+        "editable": false
+      }
     },
     {
       "r": 4,
       "c": 0,
-      "v": { "v": "Volume Forecast" }
+      "v": {
+        "v": "Volume Forecast",
+        "editable": false
+      }
     },
     {
       "r": 5,
       "c": 0,
-      "v": { "v": "AHT (mins)" }
+      "v": {
+        "v": "AHT (mins)",
+        "editable": false
+      }
     }
 
   ],
-  "config": {},
+  "config": {
+  },
   "index": 0,
   "order": 0,
   "status": 1

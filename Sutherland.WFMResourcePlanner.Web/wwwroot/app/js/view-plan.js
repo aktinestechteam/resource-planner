@@ -37,8 +37,53 @@
                                 luckysheet.setSheetActive(0);
                                 luckysheet.refreshFormula();
                             }, 100);
+                        },
+                        cellEditBefore: function (cell, rowIndex, colIndex) {
+                            const sheet = luckysheet.getSheet();
+                            const targetCellData = sheet.celldata.find(c => c.r === cell[0].row_focus && c.c === cell[0].column_focus);
+                            if (targetCellData && targetCellData.v && targetCellData.v.editable === false) {
+                                return false;
+                            }
+
+                        },
+                        rangePasteBefore: function (pastedRange, data) {
+
+                            const sheetData = luckysheet.getSheet();
+                            // Iterate through each target range where data is being pasted
+                            for (const range of pastedRange) {
+                                const startRow = range.row[0];
+                                const endRow = range.row[1];
+                                const startCol = range.column[0];
+                                const endCol = range.column[1];
+                                // Check every cell within the paste target range
+                                for (let r = startRow; r <= endRow; r++) {
+                                    for (let c = startCol; c <= endCol; c++) {
+                                        const targetCellData = sheetData.celldata.find(cell => cell.r === r && cell.c === c);
+                                        // If the target cell exists AND is protected (editable: false or formula)
+                                        if (targetCellData && targetCellData.v && (targetCellData.v.editable === false || targetCellData.v.f)) {
+                                            console.warn(`[cellPasteBefore] Preventing paste into protected cell R${r}C${c}.`);
+                                            return false; // Prevent the paste operation
+                                        }
+                                    }
+                                }
+                            }
+                            console.log("[cellPasteBefore] Paste allowed.");
+                            return true; // Allow the paste if no protected cells are found in the target
+                        },
+                        sheetEditNameAfter: function (editedSheetInfo) {
+                            const sheetIndex = editedSheetInfo.i;
+                            const oldName = editedSheetInfo.oldName;
+                            const newName = editedSheetInfo.newName;
+
+                            const sheet = currentSheets.find(m => m.name === oldName);
+                            if (sheet && sheet.type && sheet.type !== "Custom") {
+                                alert("The sheet '" + oldName + "' cannot be renamed!");
+                                luckysheet.setSheetName(oldName); 
+                                return false; 
+                            }
                         }
                     }
+                    
                 });
 
                 $('#saveContainer').show();
