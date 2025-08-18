@@ -1,7 +1,7 @@
 # Ignore build output
 bin/
 obj/
-
+vs/
 # User-specific files
 *.suo
 *.user
