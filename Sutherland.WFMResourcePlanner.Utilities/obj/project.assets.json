@@ -78,6 +78,16 @@
             "rid": "win"
           }
         }
+      },
+      "Sutherland.WFMResourcePlanner.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Sutherland.WFMResourcePlanner.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sutherland.WFMResourcePlanner.Entities.dll": {}
+        }
       }
     }
   },
@@ -207,11 +217,17 @@
         "system.data.sqlclient.4.9.0.nupkg.sha512",
         "system.data.sqlclient.nuspec"
       ]
+    },
+    "Sutherland.WFMResourcePlanner.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Sutherland.WFMResourcePlanner.Entities/Sutherland.WFMResourcePlanner.Entities.csproj",
+      "msbuildProject": "../Sutherland.WFMResourcePlanner.Entities/Sutherland.WFMResourcePlanner.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Newtonsoft.Json >= 13.0.3",
+      "Sutherland.WFMResourcePlanner.Entities >= 1.0.0",
       "System.Data.SqlClient >= 4.9.0"
     ]
   },
@@ -241,7 +257,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Entities\\Sutherland.WFMResourcePlanner.Entities.csproj": {
+              "projectPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Entities\\Sutherland.WFMResourcePlanner.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -64,8 +64,6 @@
 										<div class="plan-meta">
 											<div><strong>Vertical:</strong> ${plan.vertical}</div>
 											<div><strong>Account:</strong> ${plan.account}</div>
-											<div><strong>Geo:</strong> ${plan.geo}</div>
-											<div><strong>Site:</strong> ${plan.site}</div>
 											<div><strong>Duration:</strong> ${formatDate(plan.planFrom)} → ${formatDate(plan.planTo)}</div>
 										</div>
 									</div>

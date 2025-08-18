@@ -1,363 +1,4762 @@
 {
-  "name": "LOB - FTE",
+  "name": "Sheet5",
+  "color": "",
+  "status": 1,
+  "order": 4,
+  "index": "Sheet_0133550miKb3_1754554103899",
   "celldata": [
     {
       "r": 0,
       "c": 0,
       "v": {
-        "v": "Metric",
-        "bl": 1
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": "Arial",
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      }
+    },
+    {
+      "r": 0,
+      "c": 1,
+      "v": {
+        "v": "Month",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Month",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      }
+    },
+    {
+      "r": 0,
+      "c": 2,
+      "v": {
+        "v": "Jun-25",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Jun-25",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
       }
     },
     {
       "r": 1,
       "c": 0,
-      "v": { "v": "FTE LOCK" }
+      "v": {
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 1,
+        "it": 0,
+        "ff": "Arial",
+        "fs": 10,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      }
+    },
+    {
+      "r": 1,
+      "c": 1,
+      "v": {
+        "v": "Week-ST",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Week-ST",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      }
+    },
+    {
+      "r": 1,
+      "c": 2,
+      "v": {
+        "v": "30-Jun-25",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "30-Jun-25",
+        "bg": null,
+        "bl": 1,
+        "it": 0,
+        "ff": 1,
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      }
     },
     {
       "r": 2,
       "c": 0,
-      "v": { "v": "HOURS LOCK" }
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": "Arial",
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      }
+    },
+    {
+      "r": 2,
+      "c": 1,
+      "v": {
+        "v": "Week-ED",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Week-ED",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      }
+    },
+    {
+      "r": 2,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      }
     },
     {
       "r": 3,
       "c": 0,
-      "v": { "v": "FTE Required wth Shrinkage (Lock Hours)" }
+      "v": {
+        "v": "Summary ",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Summary ",
+        "bg": "rgb(131, 226, 142)",
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 3,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 3,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 1,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 4,
       "c": 0,
-      "v": { "v": "FTE Available" }
+      "v": {
+        "v": "Client Lock",
+        "m": "Client Lock",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 4,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 4,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "General",
+          "t": "n"
+        }
+      }
     },
     {
       "r": 5,
       "c": 0,
-      "v": { "v": "FTE (Delta Client Required)" }
+      "v": {
+        "v": "Client Locked Hours",
+        "m": "Client Locked Hours",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 5,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 5,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "General",
+          "t": "n"
+        }
+      }
     },
     {
       "r": 6,
       "c": 0,
-      "v": { "v": "FTE (Delta Sutherland Required)" }
+      "v": {
+        "v": "Required HC",
+        "m": "Required HC",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 6,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 6,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "General",
+          "t": "e"
+        },
+        "f": "=Round(C6/(C23*C24*(1-C17)*(1-C16)*(1-C22)),0)",
+        "m": "0",
+        "v": 0
+      }
     },
     {
       "r": 7,
       "c": 0,
-      "v": { "v": "Staffing % Client Req" }
+      "v": {
+        "v": "Available FTE",
+        "m": "Available FTE",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 7,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 7,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "General",
+          "t": "n"
+        }
+      }
     },
     {
       "r": 8,
       "c": 0,
-      "v": { "v": "Staffing % Suth Req" }
+      "v": {
+        "v": "Projected Hours",
+        "m": "Projected Hours",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 8,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 8,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "f": "=C8*(C23*C24*(1-C17)*(1-C16)*(1-C22))",
+        "v": 0,
+        "ct": {
+          "fa": "0",
+          "t": "n"
+        },
+        "m": "0"
+      }
     },
     {
       "r": 9,
       "c": 0,
-      "v": { "v": "Overall HC available" }
+      "v": {
+        "v": "Delta in HC",
+        "m": "Delta in HC",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 9,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 9,
+      "c": 2,
+      "v": {
+        "v": 0,
+        "m": "0",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "f": "=C8-C7",
+        "ct": {
+          "fa": "General",
+          "t": "e"
+        }
+      }
     },
     {
       "r": 10,
       "c": 0,
-      "v": { "v": "Production HC Available" }
+      "v": {
+        "v": "Delta in Hours",
+        "m": "Delta in Hours",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 10,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 10,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "f": "=Round(C9-C6,0)",
+        "m": "0",
+        "ct": {
+          "fa": "General",
+          "t": "e"
+        },
+        "v": 0
+      }
     },
     {
       "r": 11,
       "c": 0,
-      "v": { "v": "Training HC" }
+      "v": {
+        "v": "Staffing % (Headcount)",
+        "m": "Staffing % (Headcount)",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 11,
+      "c": 2,
+      "v": {
+        "v": 0,
+        "f": "=Round(IFERROR(C8/C5,0),2)",
+        "m": "0%",
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        }
+      }
     },
     {
       "r": 12,
       "c": 0,
-      "v": { "v": "AL HC" }
+      "v": {
+        "v": "Staffing % (Hours)",
+        "m": "Staffing % (Hours)",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 12,
+      "c": 2,
+      "v": {
+        "v": 0,
+        "f": "=IFERROR(C9/C6,0)",
+        "ct": {
+          "fa": "0%",
+          "t": "e"
+        },
+        "m": "0%"
+      }
     },
     {
       "r": 13,
       "c": 0,
-      "v": { "v": "Nesting HC" }
+      "v": {
+        "v": "Planned Assumptions ",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Planned Assumptions ",
+        "bg": "rgb(131, 226, 142)",
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 13,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 13,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 1,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 14,
       "c": 0,
-      "v": { "v": "Transition HC" }
+      "v": {
+        "v": "Overall Shrinkage",
+        "m": "Overall Shrinkage",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 14,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 14,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "f": "=SUM(C16:C17)",
+        "m": "26%",
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.26
+      }
     },
     {
       "r": 15,
       "c": 0,
-      "v": { "v": "Over Time (Tenured)/WK - Hrs" }
+      "v": {
+        "v": "Shrinkage InOffice",
+        "m": "Shrinkage InOffice",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 15,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 15,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.12,
+        "m": "12%"
+      }
     },
     {
       "r": 16,
       "c": 0,
-      "v": { "v": "Tenured HC Available 30+ Day %" }
+      "v": {
+        "v": "Shirnkage OutOfOffice",
+        "m": "Shirnkage OutOfOffice",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 16,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 16,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.14,
+        "m": "14%"
+      }
     },
     {
       "r": 17,
       "c": 0,
-      "v": { "v": "" }
+      "v": {
+        "v": "OutofOffice Planned",
+        "m": "OutofOffice Planned",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 17,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 17,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.1,
+        "m": "10%"
+      }
     },
     {
       "r": 18,
       "c": 0,
-      "v": { "v": "Shrinkage Out of Office" }
+      "v": {
+        "v": "OutofOffice Unplanned",
+        "m": "OutofOffice Unplanned",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 18,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 18,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.04,
+        "m": "4%"
+      }
     },
     {
       "r": 19,
       "c": 0,
-      "v": { "v": "Shrinkage In -Office" }
+      "v": {
+        "v": "Production Attrition",
+        "m": "Production Attrition",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 19,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 19,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.01,
+        "m": "1%"
+      }
     },
     {
       "r": 20,
       "c": 0,
-      "v": { "v": "Break\\Lunch" }
+      "v": {
+        "v": "Training Attrition",
+        "m": "Training Attrition",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 20,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 20,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.02,
+        "m": "2%"
+      }
     },
     {
       "r": 21,
       "c": 0,
-      "v": { "v": "Working Hrs / Day" }
+      "v": {
+        "v": "Scheduling InFlex",
+        "m": "Scheduling InFlex",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 21,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 21,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.08,
+        "m": "8%"
+      }
     },
     {
       "r": 22,
       "c": 0,
-      "v": { "v": "Working Days / WK" }
+      "v": {
+        "v": "Work Days",
+        "m": "Work Days",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 22,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 22,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "v": "5",
+        "ct": {
+          "fa": "General",
+          "t": "n"
+        },
+        "m": "5"
+      }
     },
     {
       "r": 23,
       "c": 0,
-      "v": { "v": "Attrition - Production" }
+      "v": {
+        "v": "Work Hours",
+        "m": "Work Hours",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 23,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 23,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "v": "8",
+        "ct": {
+          "fa": "General",
+          "t": "n"
+        },
+        "m": "8"
+      }
     },
     {
       "r": 24,
       "c": 0,
-      "v": { "v": "Attrition - Training" }
+      "v": {
+        "v": "Overtime Hours",
+        "m": "Overtime Hours",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 24,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 24,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "v": 0,
+        "ct": {
+          "fa": "General",
+          "t": "n"
+        },
+        "m": "0"
+      }
     },
     {
       "r": 25,
       "c": 0,
-      "v": { "v": "" }
+      "v": {
+        "v": "Actuals ",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Actuals ",
+        "bg": "rgb(131, 226, 142)",
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 25,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 25,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 1,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 26,
       "c": 0,
-      "v": { "v": "Movement Out" }
+      "v": {
+        "v": "Overall Shrinkage",
+        "m": "Overall Shrinkage",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 26,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 26,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 27,
       "c": 0,
-      "v": { "v": "Attrition" }
+      "v": {
+        "v": "Shrinkage InOffice",
+        "m": "Shrinkage InOffice",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 27,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 27,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 28,
       "c": 0,
-      "v": { "v": "LOA" }
+      "v": {
+        "v": "Shirnkage OutOfOffice",
+        "m": "Shirnkage OutOfOffice",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 28,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 28,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 29,
       "c": 0,
-      "v": { "v": "Production to Support" }
+      "v": {
+        "v": "OutofOffice Planned",
+        "m": "OutofOffice Planned",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 29,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 29,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 30,
       "c": 0,
-      "v": { "v": "Production to Training" }
+      "v": {
+        "v": "OutofOffice Unplanned",
+        "m": "OutofOffice Unplanned",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 30,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 30,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 31,
       "c": 0,
-      "v": { "v": "Moved to R1 Lotus" }
+      "v": {
+        "v": "Production Attrition",
+        "m": "Production Attrition",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 31,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 31,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 32,
       "c": 0,
-      "v": { "v": "Transfer out to Other LOB" }
+      "v": {
+        "v": "Training Attrition",
+        "m": "Training Attrition",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 32,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 32,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 33,
       "c": 0,
-      "v": { "v": "Movement In" }
+      "v": {
+        "v": "Overtime Hours",
+        "m": "Overtime Hours",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 33,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 33,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 34,
       "c": 0,
-      "v": { "v": "Back from LOA" }
+      "v": {
+        "v": "HC ",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "HC ",
+        "bg": "rgb(131, 226, 142)",
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 34,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 34,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 1,
+        "it": 0,
+        "ff": 0,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 35,
       "c": 0,
-      "v": { "v": "Support to Production" }
+      "v": {
+        "v": "Budget_Lock_HC",
+        "m": "Budget_Lock_HC",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 35,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 35,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 36,
       "c": 0,
-      "v": { "v": "Transfer in from Other LOB" }
+      "v": {
+        "v": "Client_Lock_HC",
+        "m": "Client_Lock_HC",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 36,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 36,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 37,
       "c": 0,
-      "v": { "v": "Training to Production" }
+      "v": {
+        "v": "Internal_Lock_HC",
+        "m": "Internal_Lock_HC",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "#ff0000",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 37,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 37,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 38,
       "c": 0,
-      "v": { "v": "" }
+      "v": {
+        "v": "Avail_Production_FTE",
+        "m": "Avail_Production_FTE",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 38,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 38,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 39,
       "c": 0,
-      "v": { "v": "" }
+      "v": {
+        "v": "Avail_Production_HC",
+        "m": "Avail_Production_HC",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 39,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 39,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 40,
       "c": 0,
-      "v": { "v": "SO Status" }
+      "v": {
+        "v": "HC Delta - Lock Vs Production HC",
+        "m": "HC Delta - Lock Vs Production HC",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 40,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 40,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 41,
       "c": 0,
-      "v": { "v": "Attrition Class (SO Count)" }
+      "v": {
+        "v": "Training Plan-HC-FTE ",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Training Plan-HC-FTE ",
+        "bg": "rgb(131, 226, 142)",
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 41,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 41,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 1,
+        "it": 0,
+        "ff": 0,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 42,
       "c": 0,
-      "v": { "v": "Growth Class (SO Count)" }
+      "v": {
+        "v": "Service Order",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Service Order",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 42,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 42,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 43,
       "c": 0,
-      "v": { "v": "Service Order #" }
+      "v": {
+        "v": "Hiring Target",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Hiring Target",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 43,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 43,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 44,
       "c": 0,
-      "v": { "v": "Wave No" }
+      "v": {
+        "v": "Actual Hired",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Actual Hired",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 44,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 44,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 45,
       "c": 0,
-      "v": { "v": "FX - WK 1" }
+      "v": {
+        "v": "Fullfillment Rate%",
+        "ct": {
+          "fa": "@",
+          "t": "s"
+        },
+        "m": "Fullfillment Rate%",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 45,
+      "c": 1,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    },
+    {
+      "r": 45,
+      "c": 2,
+      "v": {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 46,
       "c": 0,
-      "v": { "v": "FX - WK 2" }
+      "v": {
+        "v": "Production hours - FTE",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Production hours - FTE",
+        "bg": "rgb(131, 226, 142)",
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 47,
       "c": 0,
-      "v": { "v": "PST WK 1" }
+      "v": {
+        "v": "Support Requirement",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Support Requirement",
+        "bg": "rgb(131, 226, 142)",
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 48,
       "c": 0,
-      "v": { "v": "PST WK 2" }
+      "v": {
+        "v": "Team Manager",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Team Manager",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 49,
       "c": 0,
-      "v": { "v": "PST WK 3" }
+      "v": {
+        "v": "SME",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "SME",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 50,
       "c": 0,
-      "v": { "v": "Applied Learning" }
+      "v": {
+        "v": "Quality",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Quality",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 51,
       "c": 0,
-      "v": { "v": "Applied Learning" }
+      "v": {
+        "v": "Trainer",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Trainer",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 52,
       "c": 0,
-      "v": { "v": "Nesting WK1" }
+      "v": {
+        "v": "AM",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "AM",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 53,
       "c": 0,
-      "v": { "v": "Nesting WK2" }
+      "v": {
+        "v": "STM",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "STM",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 54,
       "c": 0,
-      "v": { "v": "Transition Week 1" }
+      "v": {
+        "v": "RTA",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "RTA",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     },
     {
       "r": 55,
       "c": 0,
-      "v": { "v": "Transition Week 2" }
-    },
-    {
-      "r": 56,
-      "c": 0,
-      "v": { "v": "New Waves Golive HC" }
-    },
-    {
-      "r": 57,
-      "c": 0,
-      "v": { "v": "" }
-    },
-    {
-      "r": 58,
-      "c": 0,
-      "v": { "v": "" }
-    },
-    {
-      "r": 59,
-      "c": 0,
-      "v": { "v": "Team Manager - Production" }
-    },
-    {
-      "r": 60,
-      "c": 0,
-      "v": { "v": "Nesting Team Manager" }
-    },
-    {
-      "r": 61,
-      "c": 0,
-      "v": { "v": "Team Coordinator" }
-    },
-    {
-      "r": 62,
-      "c": 0,
-      "v": { "v": "Trainer" }
-    },
-    {
-      "r": 63,
-      "c": 0,
-      "v": { "v": "Quality " }
-    },
-    {
-      "r": 64,
-      "c": 0,
-      "v": { "v": "RTA" }
-    },
-    {
-      "r": 65,
-      "c": 0,
-      "v": { "v": "Nesting TC" }
-    },
-    {
-      "r": 66,
-      "c": 0,
-      "v": { "v": "Transition TC" }
-    },
-    {
-      "r": 67,
-      "c": 0,
-      "v": { "v": "Nesting QA" }
-    },
-    {
-      "r": 68,
-      "c": 0,
-      "v": { "v": "Transition QA" }
-    },
-    {
-      "r": 69,
-      "c": 0,
-      "v": { "v": "Nesting Trainer" }
+      "v": {
+        "v": "Scheduler",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Scheduler",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
     }
   ],
-  "config": {},
-  "index": 0,
-  "order": 0,
-  "status": 1
+  "row": 84,
+  "column": 60,
+  "config": {
+    "merge": {},
+    "rowlen": {
+      "4": 20,
+      "5": 20,
+      "6": 20,
+      "7": 20,
+      "8": 20,
+      "9": 20,
+      "10": 20,
+      "14": 20,
+      "15": 20,
+      "16": 20,
+      "17": 20,
+      "18": 20,
+      "19": 20,
+      "20": 20,
+      "21": 20,
+      "22": 20,
+      "23": 20,
+      "24": 20,
+      "26": 20,
+      "27": 20,
+      "28": 20,
+      "29": 20,
+      "30": 20,
+      "31": 20,
+      "32": 20,
+      "33": 20,
+      "35": 20,
+      "36": 20,
+      "37": 20,
+      "38": 20,
+      "39": 20,
+      "40": 20,
+      "42": 20,
+      "43": 20,
+      "44": 20,
+      "45": 20
+    },
+    "columnlen": {
+      "0": 234,
+      "1": 122,
+      "2": 82
+    },
+    "customWidth": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "customHeight": {},
+    "rowhidden": {},
+    "colhidden": {}
+  },
+  "pivotTable": null,
+  "isPivotTable": false,
+  "data": [
+    [
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": "Arial",
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      },
+      {
+        "v": "Month",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Month",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      },
+      {
+        "v": "Jun-25",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Jun-25",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      }
+    ],
+    [
+      {
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 1,
+        "it": 0,
+        "ff": "Arial",
+        "fs": 10,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      },
+      {
+        "v": "Week-ST",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Week-ST",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      },
+      {
+        "v": "30-Jun-25",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "30-Jun-25",
+        "bg": null,
+        "bl": 1,
+        "it": 0,
+        "ff": 1,
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      }
+    ],
+    [
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": "Arial",
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      },
+      {
+        "v": "Week-ED",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Week-ED",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 9,
+        "fc": "rgb(33, 37, 41)",
+        "ht": 1,
+        "vt": 0
+      }
+    ],
+    [
+      {
+        "v": "Summary ",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Summary ",
+        "bg": "rgb(131, 226, 142)",
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 1,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Client Lock",
+        "m": "Client Lock",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "General",
+          "t": "n"
+        }
+      }
+    ],
+    [
+      {
+        "v": "Client Locked Hours",
+        "m": "Client Locked Hours",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "General",
+          "t": "n"
+        }
+      }
+    ],
+    [
+      {
+        "v": "Required HC",
+        "m": "Required HC",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "General",
+          "t": "e"
+        },
+        "f": "=Round(C6/(C23*C24*(1-C17)*(1-C16)*(1-C22)),0)",
+        "m": "0",
+        "v": 0
+      }
+    ],
+    [
+      {
+        "v": "Available FTE",
+        "m": "Available FTE",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "General",
+          "t": "n"
+        }
+      }
+    ],
+    [
+      {
+        "v": "Projected Hours",
+        "m": "Projected Hours",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "f": "=C8*(C23*C24*(1-C17)*(1-C16)*(1-C22))",
+        "v": 0,
+        "ct": {
+          "fa": "0",
+          "t": "n"
+        },
+        "m": "0"
+      }
+    ],
+    [
+      {
+        "v": "Delta in HC",
+        "m": "Delta in HC",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "v": 0,
+        "m": "0",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "f": "=C8-C7",
+        "ct": {
+          "fa": "General",
+          "t": "e"
+        }
+      }
+    ],
+    [
+      {
+        "v": "Delta in Hours",
+        "m": "Delta in Hours",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "f": "=Round(C9-C6,0)",
+        "m": "0",
+        "ct": {
+          "fa": "General",
+          "t": "e"
+        },
+        "v": 0
+      }
+    ],
+    [
+      {
+        "v": "Staffing % (Headcount)",
+        "m": "Staffing % (Headcount)",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      null,
+      {
+        "v": 0,
+        "f": "=Round(IFERROR(C8/C5,0),2)",
+        "m": "0%",
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        }
+      }
+    ],
+    [
+      {
+        "v": "Staffing % (Hours)",
+        "m": "Staffing % (Hours)",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      null,
+      {
+        "v": 0,
+        "f": "=IFERROR(C9/C6,0)",
+        "ct": {
+          "fa": "0%",
+          "t": "e"
+        },
+        "m": "0%"
+      }
+    ],
+    [
+      {
+        "v": "Planned Assumptions ",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Planned Assumptions ",
+        "bg": "rgb(131, 226, 142)",
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 1,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Overall Shrinkage",
+        "m": "Overall Shrinkage",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "f": "=SUM(C16:C17)",
+        "m": "26%",
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.26
+      }
+    ],
+    [
+      {
+        "v": "Shrinkage InOffice",
+        "m": "Shrinkage InOffice",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.12,
+        "m": "12%"
+      }
+    ],
+    [
+      {
+        "v": "Shirnkage OutOfOffice",
+        "m": "Shirnkage OutOfOffice",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.14,
+        "m": "14%"
+      }
+    ],
+    [
+      {
+        "v": "OutofOffice Planned",
+        "m": "OutofOffice Planned",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.1,
+        "m": "10%"
+      }
+    ],
+    [
+      {
+        "v": "OutofOffice Unplanned",
+        "m": "OutofOffice Unplanned",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.04,
+        "m": "4%"
+      }
+    ],
+    [
+      {
+        "v": "Production Attrition",
+        "m": "Production Attrition",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.01,
+        "m": "1%"
+      }
+    ],
+    [
+      {
+        "v": "Training Attrition",
+        "m": "Training Attrition",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.02,
+        "m": "2%"
+      }
+    ],
+    [
+      {
+        "v": "Scheduling InFlex",
+        "m": "Scheduling InFlex",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "ct": {
+          "fa": "0%",
+          "t": "n"
+        },
+        "v": 0.08,
+        "m": "8%"
+      }
+    ],
+    [
+      {
+        "v": "Work Days",
+        "m": "Work Days",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "v": "5",
+        "ct": {
+          "fa": "General",
+          "t": "n"
+        },
+        "m": "5"
+      }
+    ],
+    [
+      {
+        "v": "Work Hours",
+        "m": "Work Hours",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "v": "8",
+        "ct": {
+          "fa": "General",
+          "t": "n"
+        },
+        "m": "8"
+      }
+    ],
+    [
+      {
+        "v": "Overtime Hours",
+        "m": "Overtime Hours",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2,
+        "v": 0,
+        "ct": {
+          "fa": "General",
+          "t": "n"
+        },
+        "m": "0"
+      }
+    ],
+    [
+      {
+        "v": "Actuals ",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Actuals ",
+        "bg": "rgb(131, 226, 142)",
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 1,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Overall Shrinkage",
+        "m": "Overall Shrinkage",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Shrinkage InOffice",
+        "m": "Shrinkage InOffice",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Shirnkage OutOfOffice",
+        "m": "Shirnkage OutOfOffice",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "OutofOffice Planned",
+        "m": "OutofOffice Planned",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "OutofOffice Unplanned",
+        "m": "OutofOffice Unplanned",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Production Attrition",
+        "m": "Production Attrition",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Training Attrition",
+        "m": "Training Attrition",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Overtime Hours",
+        "m": "Overtime Hours",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "HC ",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "HC ",
+        "bg": "rgb(131, 226, 142)",
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 1,
+        "it": 0,
+        "ff": 0,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Budget_Lock_HC",
+        "m": "Budget_Lock_HC",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Client_Lock_HC",
+        "m": "Client_Lock_HC",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Internal_Lock_HC",
+        "m": "Internal_Lock_HC",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "#ff0000",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Avail_Production_FTE",
+        "m": "Avail_Production_FTE",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Avail_Production_HC",
+        "m": "Avail_Production_HC",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "HC Delta - Lock Vs Production HC",
+        "m": "HC Delta - Lock Vs Production HC",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Training Plan-HC-FTE ",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Training Plan-HC-FTE ",
+        "bg": "rgb(131, 226, 142)",
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 1,
+        "it": 0,
+        "ff": 0,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Service Order",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Service Order",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Hiring Target",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Hiring Target",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Actual Hired",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Actual Hired",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Fullfillment Rate%",
+        "ct": {
+          "fa": "@",
+          "t": "s"
+        },
+        "m": "Fullfillment Rate%",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      {
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 0,
+        "fs": 11,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      }
+    ],
+    [
+      {
+        "v": "Production hours - FTE",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Production hours - FTE",
+        "bg": "rgb(131, 226, 142)",
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "v": "Support Requirement",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Support Requirement",
+        "bg": "rgb(131, 226, 142)",
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "v": "Team Manager",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Team Manager",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "v": "SME",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "SME",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "v": "Quality",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Quality",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "v": "Trainer",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Trainer",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "v": "AM",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "AM",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "v": "STM",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "STM",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "v": "RTA",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "RTA",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "v": "Scheduler",
+        "ct": {
+          "fa": "General",
+          "t": "g"
+        },
+        "m": "Scheduler",
+        "bg": null,
+        "bl": 0,
+        "it": 0,
+        "ff": 1,
+        "fs": 10,
+        "fc": "rgb(0, 0, 0)",
+        "ht": 1,
+        "vt": 2
+      },
+      null,
+      null
+    ]
+  ],
+  "luckysheet_select_save": [
+    {
+      "left": 358,
+      "width": 82,
+      "top": 80,
+      "height": 20,
+      "left_move": 358,
+      "width_move": 82,
+      "top_move": 80,
+      "height_move": 20,
+      "row": [ 4, 4 ],
+      "column": [ 2, 2 ],
+      "row_focus": 4,
+      "column_focus": 2
+    }
+  ],
+  "images": {},
+  "visibledatarow": [ 20, 40, 60, 80, 101, 122, 143, 164, 185, 206, 227, 247, 267, 287, 308, 329, 350, 371, 392, 413, 434, 455, 476, 497, 518, 538, 559, 580, 601, 622, 643, 664, 685, 706, 726, 747, 768, 789, 810, 831, 852, 872, 893, 914, 935, 956, 976, 996, 1016, 1036, 1056, 1076, 1096, 1116, 1136, 1156 ],
+  "visibledatacolumn": [ 235, 358, 441 ],
+  "ch_width": 561,
+  "rh_height": 1236,
+  "luckysheet_selection_range": [
+    {
+      "row": [ 30, 30 ],
+      "column": [ 0, 0 ]
+    }
+  ],
+  "scrollLeft": 3359.999755859375,
+  "scrollTop": 428.33331298828125,
+  "zoomRatio": 1,
+  "dynamicArray": [],
+  "calcChain": [
+    {
+      "r": 9,
+      "c": 2,
+      "index": "Sheet_0133550miKb3_1754554103899",
+      "func": [ true, 0, "=C8-C7" ]
+    },
+    {
+      "r": 6,
+      "c": 2,
+      "index": "Sheet_0133550miKb3_1754554103899"
+    },
+    {
+      "r": 8,
+      "c": 2,
+      "index": "Sheet_0133550miKb3_1754554103899"
+    },
+    {
+      "r": 10,
+      "c": 2,
+      "index": "Sheet_0133550miKb3_1754554103899"
+    },
+    {
+      "r": 11,
+      "c": 2,
+      "index": "Sheet_0133550miKb3_1754554103899"
+    },
+    {
+      "r": 14,
+      "c": 2,
+      "index": "Sheet_0133550miKb3_1754554103899"
+    },
+    {
+      "r": 12,
+      "c": 2,
+      "index": "Sheet_0133550miKb3_1754554103899"
+    }
+  ],
+  "filter_select": null,
+  "filter": null,
+  "luckysheet_conditionformat_save": [
+    {
+      "type": "default",
+      "cellrange": [
+        {
+          "row": [ 9, 9 ],
+          "column": [ 0, 2 ]
+        }
+      ],
+      "format": {
+        "textColor": "#9c0006",
+        "cellColor": "#ffc7ce"
+      },
+      "conditionName": "lessThan",
+      "conditionRange": [],
+      "conditionValue": [ "0" ]
+    },
+    {
+      "type": "default",
+      "cellrange": [
+        {
+          "row": [ 14, 24 ],
+          "column": [ 0, 0 ]
+        }
+      ],
+      "format": {
+        "textColor": "#9c0006",
+        "cellColor": "#ffc7ce"
+      },
+      "conditionName": "lessThan",
+      "conditionRange": [],
+      "conditionValue": [ "0" ]
+    },
+    {
+      "type": "default",
+      "cellrange": [
+        {
+          "row": [ 26, 33 ],
+          "column": [ 0, 0 ]
+        }
+      ],
+      "format": {
+        "textColor": "#9c0006",
+        "cellColor": "#ffc7ce"
+      },
+      "conditionName": "lessThan",
+      "conditionRange": [],
+      "conditionValue": [ "0" ]
+    },
+    {
+      "type": "default",
+      "cellrange": [
+        {
+          "row": [ 35, 40 ],
+          "column": [ 0, 0 ]
+        }
+      ],
+      "format": {
+        "textColor": "#9c0006",
+        "cellColor": "#ffc7ce"
+      },
+      "conditionName": "lessThan",
+      "conditionRange": [],
+      "conditionValue": [ "0" ]
+    }
+  ],
+  "luckysheet_alternateformat_save": [],
+  "dataVerification": {},
+  "hyperlink": {},
+  "jfgird_select_save": []
 }
-

@@ -178,7 +178,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Entities\\Sutherland.WFMResourcePlanner.Entities.csproj": {
+                "projectPath": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Entities\\Sutherland.WFMResourcePlanner.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

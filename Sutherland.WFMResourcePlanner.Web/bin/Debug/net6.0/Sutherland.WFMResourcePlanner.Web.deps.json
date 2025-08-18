@@ -110,6 +110,7 @@
       "Sutherland.WFMResourcePlanner.Utilities/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
+          "Sutherland.WFMResourcePlanner.Entities": "1.0.0",
           "System.Data.SqlClient": "4.9.0"
         },
         "runtime": {

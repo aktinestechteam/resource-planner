@@ -10,60 +10,349 @@
       }
     },
     {
-      "r": 0,
-      "c": 1,
-      "v": {
-        "v": "{WEEK_1}",
-        "bl": 1
-      }
-    },
-    {
-      "r": 0,
-      "c": 2,
-      "v": {
-        "v": "{WEEK_2}",
-        "bl": 1
-      }
-    },
-    {
-      "r": 0,
-      "c": 3,
-      "v": {
-        "v": "{WEEK_3}",
-        "bl": 1
-      }
-    },
-
-    {
       "r": 1,
       "c": 0,
-      "v": { "v": "FTE Required" }
+      "v": { "v": "FTE LOCK" }
     },
     {
       "r": 2,
       "c": 0,
-      "v": { "v": "FTE Available" }
+      "v": { "v": "HOURS LOCK" }
     },
     {
       "r": 3,
       "c": 0,
-      "v": { "v": "FTE Gap" }
-    },
-
-    {
-      "r": 3,
-      "c": 1,
-      "v": { "f": "=B2-B3" }
+      "v": { "v": "FTE Required wth Shrinkage (Lock Hours)" }
     },
     {
-      "r": 3,
-      "c": 2,
-      "v": { "f": "=C2-C3" }
+      "r": 4,
+      "c": 0,
+      "v": { "v": "FTE Available" }
     },
     {
-      "r": 3,
-      "c": 3,
-      "v": { "f": "=D2-D3" }
+      "r": 5,
+      "c": 0,
+      "v": { "v": "FTE (Delta Client Required)" }
+    },
+    {
+      "r": 6,
+      "c": 0,
+      "v": { "v": "FTE (Delta Sutherland Required)" }
+    },
+    {
+      "r": 7,
+      "c": 0,
+      "v": { "v": "Staffing % Client Req" }
+    },
+    {
+      "r": 8,
+      "c": 0,
+      "v": { "v": "Staffing % Suth Req" }
+    },
+    {
+      "r": 9,
+      "c": 0,
+      "v": { "v": "Overall HC available" }
+    },
+    {
+      "r": 10,
+      "c": 0,
+      "v": { "v": "Production HC Available" }
+    },
+    {
+      "r": 11,
+      "c": 0,
+      "v": { "v": "Training HC" }
+    },
+    {
+      "r": 12,
+      "c": 0,
+      "v": { "v": "AL HC" }
+    },
+    {
+      "r": 13,
+      "c": 0,
+      "v": { "v": "Nesting HC" }
+    },
+    {
+      "r": 14,
+      "c": 0,
+      "v": { "v": "Transition HC" }
+    },
+    {
+      "r": 15,
+      "c": 0,
+      "v": { "v": "Over Time (Tenured)/WK - Hrs" }
+    },
+    {
+      "r": 16,
+      "c": 0,
+      "v": { "v": "Tenured HC Available 30+ Day %" }
+    },
+    {
+      "r": 17,
+      "c": 0,
+      "v": { "v": "" }
+    },
+    {
+      "r": 18,
+      "c": 0,
+      "v": { "v": "Shrinkage Out of Office" }
+    },
+    {
+      "r": 19,
+      "c": 0,
+      "v": { "v": "Shrinkage In -Office" }
+    },
+    {
+      "r": 20,
+      "c": 0,
+      "v": { "v": "Break\\Lunch" }
+    },
+    {
+      "r": 21,
+      "c": 0,
+      "v": { "v": "Working Hrs / Day" }
+    },
+    {
+      "r": 22,
+      "c": 0,
+      "v": { "v": "Working Days / WK" }
+    },
+    {
+      "r": 23,
+      "c": 0,
+      "v": { "v": "Attrition - Production" }
+    },
+    {
+      "r": 24,
+      "c": 0,
+      "v": { "v": "Attrition - Training" }
+    },
+    {
+      "r": 25,
+      "c": 0,
+      "v": { "v": "" }
+    },
+    {
+      "r": 26,
+      "c": 0,
+      "v": { "v": "Movement Out" }
+    },
+    {
+      "r": 27,
+      "c": 0,
+      "v": { "v": "Attrition" }
+    },
+    {
+      "r": 28,
+      "c": 0,
+      "v": { "v": "LOA" }
+    },
+    {
+      "r": 29,
+      "c": 0,
+      "v": { "v": "Production to Support" }
+    },
+    {
+      "r": 30,
+      "c": 0,
+      "v": { "v": "Production to Training" }
+    },
+    {
+      "r": 31,
+      "c": 0,
+      "v": { "v": "Moved to R1 Lotus" }
+    },
+    {
+      "r": 32,
+      "c": 0,
+      "v": { "v": "Transfer out to Other LOB" }
+    },
+    {
+      "r": 33,
+      "c": 0,
+      "v": { "v": "Movement In" }
+    },
+    {
+      "r": 34,
+      "c": 0,
+      "v": { "v": "Back from LOA" }
+    },
+    {
+      "r": 35,
+      "c": 0,
+      "v": { "v": "Support to Production" }
+    },
+    {
+      "r": 36,
+      "c": 0,
+      "v": { "v": "Transfer in from Other LOB" }
+    },
+    {
+      "r": 37,
+      "c": 0,
+      "v": { "v": "Training to Production" }
+    },
+    {
+      "r": 38,
+      "c": 0,
+      "v": { "v": "" }
+    },
+    {
+      "r": 39,
+      "c": 0,
+      "v": { "v": "" }
+    },
+    {
+      "r": 40,
+      "c": 0,
+      "v": { "v": "SO Status" }
+    },
+    {
+      "r": 41,
+      "c": 0,
+      "v": { "v": "Attrition Class (SO Count)" }
+    },
+    {
+      "r": 42,
+      "c": 0,
+      "v": { "v": "Growth Class (SO Count)" }
+    },
+    {
+      "r": 43,
+      "c": 0,
+      "v": { "v": "Service Order #" }
+    },
+    {
+      "r": 44,
+      "c": 0,
+      "v": { "v": "Wave No" }
+    },
+    {
+      "r": 45,
+      "c": 0,
+      "v": { "v": "FX - WK 1" }
+    },
+    {
+      "r": 46,
+      "c": 0,
+      "v": { "v": "FX - WK 2" }
+    },
+    {
+      "r": 47,
+      "c": 0,
+      "v": { "v": "PST WK 1" }
+    },
+    {
+      "r": 48,
+      "c": 0,
+      "v": { "v": "PST WK 2" }
+    },
+    {
+      "r": 49,
+      "c": 0,
+      "v": { "v": "PST WK 3" }
+    },
+    {
+      "r": 50,
+      "c": 0,
+      "v": { "v": "Applied Learning" }
+    },
+    {
+      "r": 51,
+      "c": 0,
+      "v": { "v": "Applied Learning" }
+    },
+    {
+      "r": 52,
+      "c": 0,
+      "v": { "v": "Nesting WK1" }
+    },
+    {
+      "r": 53,
+      "c": 0,
+      "v": { "v": "Nesting WK2" }
+    },
+    {
+      "r": 54,
+      "c": 0,
+      "v": { "v": "Transition Week 1" }
+    },
+    {
+      "r": 55,
+      "c": 0,
+      "v": { "v": "Transition Week 2" }
+    },
+    {
+      "r": 56,
+      "c": 0,
+      "v": { "v": "New Waves Golive HC" }
+    },
+    {
+      "r": 57,
+      "c": 0,
+      "v": { "v": "" }
+    },
+    {
+      "r": 58,
+      "c": 0,
+      "v": { "v": "" }
+    },
+    {
+      "r": 59,
+      "c": 0,
+      "v": { "v": "Team Manager - Production" }
+    },
+    {
+      "r": 60,
+      "c": 0,
+      "v": { "v": "Nesting Team Manager" }
+    },
+    {
+      "r": 61,
+      "c": 0,
+      "v": { "v": "Team Coordinator" }
+    },
+    {
+      "r": 62,
+      "c": 0,
+      "v": { "v": "Trainer" }
+    },
+    {
+      "r": 63,
+      "c": 0,
+      "v": { "v": "Quality " }
+    },
+    {
+      "r": 64,
+      "c": 0,
+      "v": { "v": "RTA" }
+    },
+    {
+      "r": 65,
+      "c": 0,
+      "v": { "v": "Nesting TC" }
+    },
+    {
+      "r": 66,
+      "c": 0,
+      "v": { "v": "Transition TC" }
+    },
+    {
+      "r": 67,
+      "c": 0,
+      "v": { "v": "Nesting QA" }
+    },
+    {
+      "r": 68,
+      "c": 0,
+      "v": { "v": "Transition QA" }
+    },
+    {
+      "r": 69,
+      "c": 0,
+      "v": { "v": "Nesting Trainer" }
     }
   ],
   "config": {},
@@ -71,4 +360,3 @@
   "order": 0,
   "status": 1
 }
-

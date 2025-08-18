@@ -1,5 +1,6 @@
 ﻿$(function () {
 
+
     let currentSheets = [];
     const planId = $('#planId').val();
     $.ajax({
@@ -11,6 +12,9 @@
                 // Set workbook and launch Luckysheet
                 luckysheet.create({
                     container: 'luckysheet',
+                    lang: 'en',
+                    locale: 'en-US' ,
+                    plugins: [{ name: 'chart' }],
                     data: data.sheets.map(s => {
                         let parsed = JSON.parse(s.jsonData);
                         return {
@@ -22,22 +26,23 @@
                     showinfobar: false,
                     hook: {
                         workbookCreateAfter: function () {
-                            setTimeout(() => {
-                                const sheets = luckysheet.getAllSheets();
-                                sheets.forEach((sheet, index) => {
-                                    luckysheet.setSheetActive(index);
-                                    const formulaCells = sheet.celldata?.filter(cell => cell.v?.f);
-                                    formulaCells?.forEach(cell => {
-                                        const { r, c, v } = cell;
-                                        luckysheet.setCellValue(r, c, {
-                                            f: v.f
-                                        }, index);
-                                    });
-                                });
-                                luckysheet.setSheetActive(0);
-                                luckysheet.refreshFormula();
-                            }, 100);
+                            //setTimeout(() => {
+                            //    const sheets = luckysheet.getAllSheets();
+                            //    sheets.forEach((sheet, index) => {
+                            //        luckysheet.setSheetActive(index);
+                            //        const formulaCells = sheet.celldata?.filter(cell => cell.v?.f);
+                            //        formulaCells?.forEach(cell => {
+                            //            const { r, c, v } = cell;
+                            //            luckysheet.setCellValue(r, c, {
+                            //                f: v.f
+                            //            }, index);
+                            //        });
+                            //    });
+                            //    luckysheet.setSheetActive(0);
+                            //    luckysheet.refreshFormula();
+                            //}, 100);
                         },
+
                         cellEditBefore: function (cell, rowIndex, colIndex) {
                             const sheet = luckysheet.getSheet();
                             const targetCellData = sheet.celldata.find(c => c.r === cell[0].row_focus && c.c === cell[0].column_focus);
@@ -81,6 +86,13 @@
                                 luckysheet.setSheetName(oldName); 
                                 return false; 
                             }
+                        },
+                        sheetActivate: function (sheetInfo) {
+                            setTimeout(() => {
+                                if (luckysheet.getSheet().chart && luckysheet.getSheet().chart.length > 0) {
+                                    luckysheet.refresh();
+                                }
+                            }, 100);
                         }
                     }
                     
@@ -181,4 +193,34 @@
     $('#btnDashboard').on('click', function () {
         window.location.href = "/w3crm/Index";
     });
+
+
+    // Refresh charts from all sheets
+    /**
+     * Checks for changes in chart data and refreshes only the sheets
+     * where a change has occurred.
+     */
+
+
+
+
+    function refreshAllCharts() {
+
+        /* GraphicalSummary
+
+        const groupConfigs = [
+            { GroupName: "FTE Delta", Headers: ["Delta"] },
+            { GroupName: "FTE Required & Available", Headers: ["Required HC", "Available FTE"] }
+        ];
+        const weekRange = "C1:F1";
+        GraphicalSummaryPlugin.generateGraphicalSummary(luckysheet, luckysheet.getluckysheetfile(), groupConfigs, weekRange);
+        */
+        SheetWeekExtender.addNextWeeksToAllSheets(5, true);
+
+
+    }
+    document.getElementById("btnRefreshCharts").addEventListener("click", refreshAllCharts);
+
+
+
 });

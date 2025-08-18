@@ -1,13 +1,16 @@
 C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\bin\Debug\net6.0\Sutherland.WFMResourcePlanner.Utilities.deps.json
 C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\bin\Debug\net6.0\Sutherland.WFMResourcePlanner.Utilities.dll
 C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\bin\Debug\net6.0\Sutherland.WFMResourcePlanner.Utilities.pdb
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\bin\Debug\net6.0\Sutherland.WFMResourcePlanner.Entities.dll
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\bin\Debug\net6.0\Sutherland.WFMResourcePlanner.Entities.pdb
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Utilities.csproj.AssemblyReference.cache
 C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Utilities.GeneratedMSBuildEditorConfig.editorconfig
 C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Utilities.AssemblyInfoInputs.cache
 C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Utilities.AssemblyInfo.cs
 C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Utilities.csproj.CoreCompileInputs.cache
 C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Utilities.sourcelink.json
+C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Utilities.csproj.CopyComplete
 C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Utilities.dll
 C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\obj\Debug\net6.0\refint\Sutherland.WFMResourcePlanner.Utilities.dll
 C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Utilities.pdb
 C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\obj\Debug\net6.0\ref\Sutherland.WFMResourcePlanner.Utilities.dll
-C:\Laxmikant\sourcecode\applications\Sutherland.WFMResourcePlanner\Sutherland.WFMResourcePlanner.Utilities\obj\Debug\net6.0\Sutherland.WFMResourcePlanner.Utilities.csproj.AssemblyReference.cache

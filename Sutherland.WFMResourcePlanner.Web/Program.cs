@@ -2,6 +2,7 @@ using System.Data.SqlClient;
 using System.Data;
 using Sutherland.WFMResourcePlanner.Repository.Implementation;
 using Sutherland.WFMResourcePlanner.Repository.Inerface;
+using Microsoft.AspNetCore.Rewrite;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,13 @@ builder.Services.AddScoped<IPlanRepository, PlanRepository>();
 
 var app = builder.Build();
 
+var rewriteOptions = new RewriteOptions()
+    .AddRewrite(@"^locale/en$", "locale/en.js", skipRemainingRules: true)
+    .AddRewrite(@"^locale/zh$", "locale/zh.js", skipRemainingRules: true)
+    .AddRewrite(@"^expendplugins/chart/plugin$", "expendplugins/chart/plugin.js", skipRemainingRules: true)
+    // Add more rewrites as needed
+    ;
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -25,7 +33,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-
+app.UseRewriter(rewriteOptions);
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

@@ -26,37 +26,46 @@ namespace Sutherland.WFMResourcePlanner.Web.Controllers
 
             try
             {
-                plan = new Plan
-                {
-                    Name = "Test Plan July 2025 v6",
-                    Vertical = "Banking",
-                    Account = "ABC Corp",
-                    Geo = "NA",
-                    Site = "Dallas",
-                    BusinessUnit = "Customer Support",
-                    WeekStart = "Monday",
-                    PlanFrom = new DateTime(2025, 7, 1),
-                    PlanTo = new DateTime(2026, 8, 31),
-                    SOTracker = true,
-                    AssumptionSheet = true,
-                    LOBs = new List<LOB>
-                    {
-                        new LOB
-                        {
-                            Name = "R1 English",
-                            BillingModel = "FTE",
-                            ProjectId = "PRJ-ENG-001"
-                        },
-                        new LOB
-                        {
-                            Name = "R2 Spanish",
-                            BillingModel = "Transaction",
-                            ProjectId = "PRJ-SPA-002"
-                        }
-                    },
-                };
+                //plan = new Plan
+                //{
+                //    Name = "Test Plan July 2025 v6",
+                //    Vertical = "Banking",
+                //    Account = "ABC Corp",
+                //    Geo = "NA",
+                //    Site = "Dallas",
+                //    BusinessUnit = "Customer Support",
+                //    WeekStart = "Monday",
+                //    PlanFrom = new DateTime(2026, 7, 1),
+                //    PlanTo = new DateTime(2026, 10, 31),
+                //    SOTracker = true,
+                //    AssumptionSheet = true,
+                //    LOBs = new List<LOB>
+                //    {
+                //        new LOB
+                //        {
+                //            Name = "R1 English",
+                //            BillingModel = "FTE",
+                //            ProjectId = "PRJ-ENG-001",
+                //            TrainingWk = 3,
+                //            NestingWk = 2,
+                //            LearningWk = 0,
+
+                //        },
+                       
+                //    },
+                //};
                 var planId = await _planRepository.CreateAsync(plan);
                 return Ok(new { PlanId = planId, Message = "Plan created successfully." });
+
+                //new LOB
+                //{
+                //    Name = "R2 Spanish",
+                //    BillingModel = "Transaction",
+                //    ProjectId = "PRJ-SPA-002",
+                //    TrainingWk = 2,
+                //    NestingWk = 3,
+                //    LearningWk = 0,
+                //}
             }
             catch (Exception ex)
             {

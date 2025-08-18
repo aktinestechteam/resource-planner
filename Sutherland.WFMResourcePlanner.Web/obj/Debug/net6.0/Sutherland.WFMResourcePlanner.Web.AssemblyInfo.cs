@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sutherland.WFMResourcePlanner.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d064bc89fb795744ca8a8c1676cfb22054d4fdd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sutherland.WFMResourcePlanner.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sutherland.WFMResourcePlanner.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,94 +1,72 @@
 ﻿using System;
 using System.Xml.Linq;
 using Newtonsoft.Json.Linq;
+using Sutherland.WFMResourcePlanner.Entities.LuckySheet;
 
 namespace Sutherland.WFMResourcePlanner.Utilities
 {
     public static class WeekHelper
     {
-
-        //public static string InjectWeekHeaders(string templateJson, List<string> weekHeaders)
-        //{
-        //    for (int i = 0; i < weekHeaders.Count; i++)
-        //    {
-        //        templateJson = templateJson.Replace($"{{WEEK_{i + 1}}}", weekHeaders[i]);
-        //    }
-
-        //    return templateJson;
-        //}
-
-        public static string InjectWeekHeaders(string jsonTemplate, List<string> weekHeaders)
+        public static List<CustomWeekConfig> BuildCustomWeek(int trainingWk, int nestingWk, int learningWk)
         {
-            JObject sheet = JObject.Parse(jsonTemplate);
-            JArray celldata = (JArray)sheet["celldata"];
+            // Generate week labels for each type
+            var trainingWks = Enumerable.Range(1, trainingWk).Select(i => $"Training_WK{i}").ToList();
+            var nestingWks = Enumerable.Range(1, nestingWk).Select(i => $"Nesting_WK{i}").ToList();
+            var learningWks = Enumerable.Range(1, learningWk).Select(i => $"Learning_Curve-WK{i}").ToList();
 
-            // Inject week header row
-            for (int i = 0; i < weekHeaders.Count; i++)
+            // Define custom week configs
+            var customWeekConfigs = new List<CustomWeekConfig>
             {
-                celldata.Add(new JObject
+                new CustomWeekConfig
                 {
-                    ["r"] = 0,
-                    ["c"] = i + 1,
-                    ["v"] = new JObject
-                    {
-                        ["v"] = weekHeaders[i],
-                        ["bl"] = 1
-                    }
-                });
-            }
-
-            //// Inject formulas in "FTE Gap" row (row index 3)
-            //for (int i = 0; i < weekHeaders.Count; i++)
-            //{
-            //    string colLetter = GetExcelColumnName(i + 2); // B, C, D, etc.
-
-            //    celldata.Add(new JObject
-            //    {
-            //        ["r"] = 3,
-            //        ["c"] = i + 1,
-            //        ["v"] = new JObject
-            //        {
-            //            ["f"] = $"={colLetter}2-{colLetter}3"
-            //        }
-            //    });
-            //}
-
-            return sheet.ToString(); // Final modified JSON as string
-        }
-
-
-
-        public static List<string> GenerateWeekHeaders(DateTime start, DateTime end, DayOfWeek weekStart)
-        {
-       
-
-            var result = new List<string>();
-            var current = start;
-
-            // Align to first week start
-            while (current.DayOfWeek != weekStart)
-                current = current.AddDays(-1);
-
-            while (current <= end)
+                    Header = "Fullfillment Rate%",
+                    IsTrainingWk = true,
+                    IsNestingWk = true,
+                    IsLearningWk = true,
+                    Weeks = new List<string>()
+                },
+                new CustomWeekConfig
+                {
+                    Header = "Production hours - FTE",
+                    IsTrainingWk = false,
+                    IsNestingWk = true,
+                    IsLearningWk = true,
+                    Weeks = new List<string>()
+                }
+            };
+            // Assign relevant weeks based on flags
+            foreach (var config in customWeekConfigs)
             {
-                result.Add(current.ToString("dd-MMM-yy"));
-                current = current.AddDays(7);
+                if (config.IsTrainingWk)
+                    config.Weeks.AddRange(trainingWks);
+                if (config.IsNestingWk)
+                    config.Weeks.AddRange(nestingWks);
+                if (config.IsLearningWk)
+                    config.Weeks.AddRange(learningWks);
             }
 
-            return result;
+            return customWeekConfigs;
         }
-
-        public static string GetExcelColumnName(int columnNumber)
+        public static List<WeeklyStaffingRowConfig> GetWeeklyStaffingConfigForLobType(string lobType)
         {
-            string columnName = "";
-            while (columnNumber > 0)
+            return lobType switch
             {
-                int modulo = (columnNumber - 1) % 26;
-                columnName = Convert.ToChar(65 + modulo) + columnName;
-                columnNumber = (columnNumber - modulo) / 26;
-            }
-            return columnName;
+                "FTE" => new List<WeeklyStaffingRowConfig>
+            {
+                new() { MetricName = "Required HC", SourceRowHeader = "Required HC" },
+                new() { MetricName = "Available FTE", SourceRowHeader = "Available FTE" },
+                new() { MetricName = "Delta in HC", FormulaTemplate = "={0}-{1}" }
+            },
+                "Transaction" => new List<WeeklyStaffingRowConfig>
+            {
+                new() { MetricName = "Required HC", SourceRowHeader = "Required HC" },
+                new() { MetricName = "Available FTE", SourceRowHeader = "Available FTE" },
+                new() { MetricName = "Delta in HC", FormulaTemplate = "={0}-{1}" }
+            },
+                _ => throw new NotSupportedException($"LOB Type {lobType} not supported")
+            };
         }
+
     }
 
 }

@@ -15,7 +15,6 @@
     <link href="~/lib/lucksheet/css/plugins.css" rel="stylesheet" />
     <link href="~/lib/lucksheet/css/luckysheet.css" rel="stylesheet" />
     <link href="~/lib/lucksheet/css/iconfont.css" rel="stylesheet" />
-    <link href="~/lib/lucksheet/css/chartmix.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <style>
@@ -220,6 +219,10 @@
                 color: #fff;
             }
 
+            .luckysheet_info_detail{
+                display:none!important;
+            }
+
         ✅
     </style>
 </head>
@@ -260,6 +263,12 @@
                 </svg>
                         <span class="button-label">Dashboard</span>
                     </button>
+
+            <button id="btnRefreshCharts" class="btn-fancy-hover-label btn-fancy-warning ms-3" title="Refresh Charts">
+                <i class="fa fa-refresh"></i>
+                <span class="button-label">Refresh</span>
+            </button>
+
                 </div>
             </div>
 
@@ -272,14 +281,14 @@
     </div>
 
     <!-- LuckySheet JS -->
+    <script type="module" src="/locale/en.js"></script>
+    <script type="module" src="~/expendplugins/chart/plugin.js"></script>
     <script src="~/lib/lucksheet/js/plugin.js"></script>
     <script src="~/lib/lucksheet/js/luckysheet.umd.js"></script>
-    <script src="~/lib/lucksheet/js/echarts.min.js"></script>
-    <script src="~/lib/lucksheet/js/chartmix.umd.min.js"></script>
+    <script src="~/lib/lucksheet/js/luckysheetenhancer.js" asp-append-version="true"></script>
+    <script src="~/app/js/graphicalsummaryplugin.js" asp-append-version="true"></script>
     <script src="~/app/js/view-plan.js" asp-append-version="true"></script>
-    <!-- jQuery -->
-
-
+    <script src="~/app/js/sheet-week-extension.js" asp-append-version="true"></script>
 
 
 </body>

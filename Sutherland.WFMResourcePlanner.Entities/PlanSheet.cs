@@ -1,6 +1,6 @@
 ﻿namespace Sutherland.WFMResourcePlanner.Entities
 {
-    public class PlanSheet
+    public class PlanSheet : BaseEntity
     {
         public int Id { get; set; }
         public int PlanId { get; set; }

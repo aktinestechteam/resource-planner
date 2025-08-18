@@ -1,6 +1,9 @@
 ﻿using Dapper;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using Sutherland.WFMResourcePlanner.Entities;
 using Sutherland.WFMResourcePlanner.Entities.DTO;
+using Sutherland.WFMResourcePlanner.Entities.LuckySheet;
 using Sutherland.WFMResourcePlanner.Repository.Inerface;
 using Sutherland.WFMResourcePlanner.Utilities;
 using System;
@@ -9,6 +12,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Numerics;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -26,46 +30,49 @@ namespace Sutherland.WFMResourcePlanner.Repository.Implementation
             if (_connection.State != ConnectionState.Open)
                 await ((SqlConnection)_connection).OpenAsync();
             using var transaction = _connection.BeginTransaction();
-
+            var createdAt = DateTime.UtcNow;
             try
             {
-           // 1. Insert Plan
+                plan.CreatedAt = createdAt;
+                // 1. Insert Plan
                 var planId = await _connection.ExecuteScalarAsync<int>(@"
-                                        INSERT INTO Plans (Name, Vertical, Account, Geo, Site, BusinessUnit, SOTracker, AssumptionSheet, WeekStart, PlanFrom, PlanTo)
+                                        INSERT INTO Plans (Name, Vertical, Account, SOTracker, AssumptionSheet, WeekStart, PlanFrom, PlanTo,CreatedAt)
                                         OUTPUT INSERTED.PlanId
-                                        VALUES (@Name, @Vertical, @Account, @Geo, @Site, @BusinessUnit, @SOTracker, @AssumptionSheet, @WeekStart, @PlanFrom, @PlanTo);
+                                        VALUES (@Name, @Vertical, @Account, @SOTracker, @AssumptionSheet, @WeekStart, @PlanFrom, @PlanTo,@CreatedAt);
                              ", plan, transaction);
 
             // 2. Generate Week Headers
             var weekStart = plan.WeekStart == "Monday" ? DayOfWeek.Monday : DayOfWeek.Sunday;
-            var weekHeaders = WeekHelper.GenerateWeekHeaders(plan.PlanFrom, plan.PlanTo, weekStart);
-
             var sheets = new List<PlanSheet>();
+                // 3. Insert LOBs and LOB sheets
+            List<JObject> lobSheets = new List<JObject>();
 
-            // 3. Insert LOBs and LOB sheets
-            foreach (var lob in plan.LOBs)
-            {
-                lob.PlanId = planId;
-                var lobId = await _connection.ExecuteScalarAsync<int>(@"
-            INSERT INTO LOBs (PlanId, Name, BillingModel, ProjectId)
-            OUTPUT INSERTED.LOBId
-            VALUES (@PlanId, @Name, @BillingModel, @ProjectId);", lob, transaction);
 
-                var template = lob.BillingModel == "FTE"
-                    ? File.ReadAllText("Templates/FTE_Template.json")
-                    : File.ReadAllText("Templates/Transaction_Template.json");
-
-                var injectedJson = WeekHelper.InjectWeekHeaders(template, weekHeaders);
-
-                sheets.Add(new PlanSheet
+                foreach (var lob in plan.LOBs)
                 {
-                    PlanId = planId,
-                    LOBId = lobId,
-                    Name = lob.Name,
-                    Type = lob.BillingModel,
-                    JsonData = injectedJson
-                });
-            }
+                    lob.PlanId = planId;
+                    lob.CreatedAt = createdAt;
+                    var lobId = await _connection.ExecuteScalarAsync<int>(@"
+            INSERT INTO LOBs (PlanId, Name, BillingModel, ProjectId,TrainingWk,NestingWk,LearningWk,Geo, Site,CreatedAt)
+            OUTPUT INSERTED.LOBId
+            VALUES (@PlanId, @Name, @BillingModel, @ProjectId,@TrainingWk,@NestingWk,@LearningWk,@Geo, @Site,@CreatedAt);", lob, transaction);
+
+                    var template = lob.BillingModel == "FTE"
+                        ? File.ReadAllText("Templates/FTE_Template.json")
+                        : File.ReadAllText("Templates/Transaction_Template.json");
+
+                    List<CustomWeekConfig> customWeeks = WeekHelper.BuildCustomWeek(lob.TrainingWk, lob.NestingWk, lob.LearningWk);
+                    var injectedJson = LuckysheetGenerator.GenerateWeeklySheet(template, plan.PlanFrom, plan.PlanTo, customWeeks, weekStart, lob.Name);
+                    sheets.Add(new PlanSheet
+                    {
+                        PlanId = planId,
+                        LOBId = lobId,
+                        Name = lob.Name,
+                        Type = lob.BillingModel,
+                        JsonData = injectedJson
+                    });
+                    lobSheets.Add(JObject.Parse(injectedJson));
+                }
 
             // 4. Optional sheets
             if (plan.SOTracker)
@@ -92,7 +99,8 @@ namespace Sutherland.WFMResourcePlanner.Repository.Implementation
 
                 // 5. Weekly Staffing Summary (placeholder)
                 var lobNames = plan.LOBs.Select(l => l.Name).ToList();
-                string summaryJson = WeeklyStaffingSummaryBuilder.BuildSummaryJson(weekHeaders, lobNames);
+                JObject weeklySheet = WeeklyStaffingGenerator.GenerateWeeklyStaffingSheet(plan.LOBs,lobSheets, plan.PlanFrom, plan.PlanTo, weekStart);
+                string summaryJson = weeklySheet.ToString(Formatting.Indented);
                 sheets.Add(new PlanSheet
                 {
                     PlanId = planId,
@@ -101,23 +109,45 @@ namespace Sutherland.WFMResourcePlanner.Repository.Implementation
                     JsonData = summaryJson
                 });
 
+                var groupConfigs = new List<GraphicalSummaryGroupConfig>
+                {
+                    new GraphicalSummaryGroupConfig
+                    {
+                        GroupName = "FTE Delta",
+                        Headers = new List<string> { "Delta" }
+                    },
+                    new GraphicalSummaryGroupConfig
+                    {
+                        GroupName = "FTE Required & Available",
+                        Headers = new List<string> { "Required HC", "Available FTE" }
+                    }
+                };
 
-            //var summaryTemplate = File.ReadAllText("Templates/Weekly_Staffing_Summary_Template.json");
-            //summaryTemplate = WeekHelper.InjectWeekHeaders(summaryTemplate, weekHeaders);
-            //sheets.Add(new PlanSheet
-            //{
-            //    PlanId = planId,
-            //    Name = "Weekly Staffing Summary",
-            //    Type = "WeeklySummary",
-            //    JsonData = summaryTemplate
-            //});
-
-            // 6. Insert Sheets
-            foreach (var sheet in sheets)
+                JObject graphicalSheet = GraphicalSummaryGenerator.GenerateGraphicalSummarySheet(
+                    lobSheets,
+                    groupConfigs,
+                    plan.PlanFrom,
+                    plan.PlanTo,
+                    DayOfWeek.Sunday
+                );
+                /*
+                string graphicalSheetJson = graphicalSheet.ToString();
+                string graphjson = graphicalSheet.ToString(Newtonsoft.Json.Formatting.Indented);
+                sheets.Add(new PlanSheet
+                {
+                    PlanId = planId,
+                    Name = "Graphical Summary",
+                    Type = "WeeklySummary",
+                    JsonData = graphicalSheetJson
+                });
+                */
+                // 6. Insert Sheets
+                foreach (var sheet in sheets)
             {
-                await _connection.ExecuteAsync(@"
-            INSERT INTO PlanSheets (PlanId, LobId, Name, Type, JsonData)
-            VALUES (@PlanId, @LobId, @Name, @Type, @JsonData);", sheet, transaction);
+                    sheet.CreatedAt = createdAt;
+                    await _connection.ExecuteAsync(@"
+            INSERT INTO PlanSheets (PlanId, LobId, Name, Type, JsonData,CreatedAt)
+            VALUES (@PlanId, @LobId, @Name, @Type, @JsonData,@CreatedAt);", sheet, transaction);
             }
 
                 transaction.Commit();
@@ -276,15 +306,12 @@ namespace Sutherland.WFMResourcePlanner.Repository.Implementation
                 throw;
             }
         }
-
-
-
         public async Task<IEnumerable<Plan>> GetAllPlansAsync()
 		{
 			if (_connection.State != ConnectionState.Open)
 				await ((SqlConnection)_connection).OpenAsync();
 
-			var sql = @"SELECT PlanId, Name, Vertical, Account, Geo, Site, PlanFrom, PlanTo 
+			var sql = @"SELECT PlanId, Name, Vertical, Account, PlanFrom, PlanTo 
                     FROM Plans 
                     ORDER BY CreatedAt DESC";
 
@@ -304,8 +331,8 @@ namespace Sutherland.WFMResourcePlanner.Repository.Implementation
 			{
 				// Copy Plan metadata
 				var insertPlanSql = @"
-             INSERT INTO Plans (Name, Vertical, Account, Geo, Site, BusinessUnit, SOTracker, AssumptionSheet, WeekStart, PlanFrom, PlanTo)
-            SELECT @NewPlanTitle, Vertical, Account, Geo, Site, BusinessUnit, SOTracker, AssumptionSheet, WeekStart, PlanFrom, PlanTo
+             INSERT INTO Plans (Name, Vertical, Account, SOTracker, AssumptionSheet, WeekStart, PlanFrom, PlanTo,CopiedFrom)
+            SELECT @NewPlanTitle, Vertical, Account, SOTracker, AssumptionSheet, WeekStart, PlanFrom, PlanTo,@SourcePlanId
             FROM Plans WHERE PlanId = @SourcePlanId;
             SELECT CAST(SCOPE_IDENTITY() AS INT);";
 

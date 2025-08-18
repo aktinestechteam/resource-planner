@@ -9,8 +9,16 @@
       "PackagePath": "staticwebassets\\app\\js\\create-plan.js"
     },
     {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\app\\js\\graphicalSummaryPlugin.js",
+      "PackagePath": "staticwebassets\\app\\js\\graphicalSummaryPlugin.js"
+    },
+    {
       "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\app\\js\\plan-summary.js",
       "PackagePath": "staticwebassets\\app\\js\\plan-summary.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\app\\js\\sheet-week-extension.js",
+      "PackagePath": "staticwebassets\\app\\js\\sheet-week-extension.js"
     },
     {
       "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\app\\js\\view-plan.js",
@@ -19,6 +27,58 @@
     {
       "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\expendPlugins\\chart\\chartmix.css",
+      "PackagePath": "staticwebassets\\expendPlugins\\chart\\chartmix.css"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\expendPlugins\\chart\\chartmix.umd.min.js",
+      "PackagePath": "staticwebassets\\expendPlugins\\chart\\chartmix.umd.min.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\expendPlugins\\chart\\echarts.min.js",
+      "PackagePath": "staticwebassets\\expendPlugins\\chart\\echarts.min.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\expendPlugins\\chart\\element-ui.css",
+      "PackagePath": "staticwebassets\\expendPlugins\\chart\\element-ui.css"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\expendPlugins\\chart\\element-ui.js",
+      "PackagePath": "staticwebassets\\expendPlugins\\chart\\element-ui.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\expendPlugins\\chart\\en.js",
+      "PackagePath": "staticwebassets\\expendPlugins\\chart\\en.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\expendPlugins\\chart\\plugin.js",
+      "PackagePath": "staticwebassets\\expendPlugins\\chart\\plugin.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\expendPlugins\\chart\\vue.min.js",
+      "PackagePath": "staticwebassets\\expendPlugins\\chart\\vue.min.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\expendPlugins\\chart\\vuex.min.js",
+      "PackagePath": "staticwebassets\\expendPlugins\\chart\\vuex.min.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\expendPlugins\\exportXlsx\\plugin.js",
+      "PackagePath": "staticwebassets\\expendPlugins\\exportXlsx\\plugin.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\expendPlugins\\print\\plugin.js",
+      "PackagePath": "staticwebassets\\expendPlugins\\print\\plugin.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\expendPlugins\\print\\print.css",
+      "PackagePath": "staticwebassets\\expendPlugins\\print\\print.css"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\expendPlugins\\print\\print.js",
+      "PackagePath": "staticwebassets\\expendPlugins\\print\\print.js"
     },
     {
       "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\favicon.ico",
@@ -289,8 +349,8 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\css\\chartmix.css",
-      "PackagePath": "staticwebassets\\lib\\lucksheet\\css\\chartmix.css"
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\css\\chart\\chartmix.css",
+      "PackagePath": "staticwebassets\\lib\\lucksheet\\css\\chart\\chartmix.css"
     },
     {
       "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\css\\iconfont.css",
@@ -309,20 +369,72 @@
       "PackagePath": "staticwebassets\\lib\\lucksheet\\css\\pluginsCss.css"
     },
     {
-      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\js\\chartmix.umd.min.js",
-      "PackagePath": "staticwebassets\\lib\\lucksheet\\js\\chartmix.umd.min.js"
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\js\\chart\\chartmix.umd.min.js",
+      "PackagePath": "staticwebassets\\lib\\lucksheet\\js\\chart\\chartmix.umd.min.js"
     },
     {
-      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\js\\echarts.min.js",
-      "PackagePath": "staticwebassets\\lib\\lucksheet\\js\\echarts.min.js"
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\js\\chart\\echarts.min.js",
+      "PackagePath": "staticwebassets\\lib\\lucksheet\\js\\chart\\echarts.min.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\js\\chart\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\lucksheet\\js\\chart\\plugin.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\js\\luckySheetEnhancer.js",
+      "PackagePath": "staticwebassets\\lib\\lucksheet\\js\\luckySheetEnhancer.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\js\\luckysheet.umd - Copy.js",
+      "PackagePath": "staticwebassets\\lib\\lucksheet\\js\\luckysheet.umd - Copy.js"
     },
     {
       "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\js\\luckysheet.umd.js",
       "PackagePath": "staticwebassets\\lib\\lucksheet\\js\\luckysheet.umd.js"
     },
     {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\js\\luckysheet.umd_.js",
+      "PackagePath": "staticwebassets\\lib\\lucksheet\\js\\luckysheet.umd_.js"
+    },
+    {
       "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\js\\plugin.js",
       "PackagePath": "staticwebassets\\lib\\lucksheet\\js\\plugin.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\utils\\chartUtil.js",
+      "PackagePath": "staticwebassets\\lib\\lucksheet\\utils\\chartUtil.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\utils\\math.js",
+      "PackagePath": "staticwebassets\\lib\\lucksheet\\utils\\math.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\utils\\polyfill.js",
+      "PackagePath": "staticwebassets\\lib\\lucksheet\\utils\\polyfill.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\lib\\lucksheet\\utils\\util.js",
+      "PackagePath": "staticwebassets\\lib\\lucksheet\\utils\\util.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\locale\\en.js",
+      "PackagePath": "staticwebassets\\locale\\en.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\locale\\es.js",
+      "PackagePath": "staticwebassets\\locale\\es.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\locale\\locale.js",
+      "PackagePath": "staticwebassets\\locale\\locale.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\locale\\zh.js",
+      "PackagePath": "staticwebassets\\locale\\zh.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\locale\\zh_tw.js",
+      "PackagePath": "staticwebassets\\locale\\zh_tw.js"
     },
     {
       "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\templates\\Assumption_Template.json",
@@ -343,6 +455,22 @@
     {
       "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\templates\\Weekly_Staffing_Summary_Template.json",
       "PackagePath": "staticwebassets\\templates\\Weekly_Staffing_Summary_Template.json"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\utils\\chartUtil.js",
+      "PackagePath": "staticwebassets\\utils\\chartUtil.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\utils\\math.js",
+      "PackagePath": "staticwebassets\\utils\\math.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\utils\\polyfill.js",
+      "PackagePath": "staticwebassets\\utils\\polyfill.js"
+    },
+    {
+      "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\utils\\util.js",
+      "PackagePath": "staticwebassets\\utils\\util.js"
     },
     {
       "Id": "C:\\Laxmikant\\sourcecode\\applications\\Sutherland.WFMResourcePlanner\\Sutherland.WFMResourcePlanner.Web\\wwwroot\\w3crm\\ajax\\contacts.html",
